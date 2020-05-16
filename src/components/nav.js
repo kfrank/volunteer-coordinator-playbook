@@ -14,6 +14,7 @@ const Nav = () => {
             frontmatter {
               sequence
               title
+              section
             }
             fields {
               slug
@@ -48,6 +49,7 @@ const Nav = () => {
     <nav className={styles.root}>
       {sections.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
+        const section = node.frontmatter.section
         return (
           <li>
             <Link to={node.fields.slug} className={styles.parentLink}>
@@ -56,14 +58,20 @@ const Nav = () => {
             <div>
               <ul>
                 {children.map(({ node }) => {
-                  const childTitle = node.frontmatter.title || node.fields.slug
-                  return (
-                    <li>
-                      <Link to={node.fields.slug} className={styles.childLink}>
-                        {childTitle}
-                      </Link>
-                    </li>
-                  )
+                  if (node.frontmatter.section === section) {
+                    const childTitle =
+                      node.frontmatter.title || node.fields.slug
+                    return (
+                      <li>
+                        <Link
+                          to={node.fields.slug}
+                          className={styles.childLink}
+                        >
+                          {childTitle}
+                        </Link>
+                      </li>
+                    )
+                  }
                 })}
                 {/* <Link to={node.fields.slug} className={styles.childLink}>
                     {title}
