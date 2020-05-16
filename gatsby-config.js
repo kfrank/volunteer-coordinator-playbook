@@ -11,6 +11,7 @@ module.exports = {
       twitter: `klare`,
     },
   },
+  pathPrefix: "/volunteer-coordinator-playbook",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -57,7 +58,6 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

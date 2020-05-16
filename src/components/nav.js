@@ -52,7 +52,20 @@ const Nav = () => {
         const section = node.frontmatter.section
         return (
           <li>
-            <Link to={node.fields.slug} className={styles.parentLink}>
+            <Link
+              to={node.fields.slug}
+              className={styles.parentLink}
+              activeClassName="active"
+            >
+              <svg width="5" height="8" className={styles.svg}>
+                <path
+                  d="M.5.598L3.902 4 .5 7.402"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  fill="none"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
               {title}
             </Link>
             <div>
@@ -66,6 +79,7 @@ const Nav = () => {
                         <Link
                           to={node.fields.slug}
                           className={styles.childLink}
+                          activeClassName="active"
                         >
                           {childTitle}
                         </Link>

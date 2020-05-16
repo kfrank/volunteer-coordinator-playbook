@@ -2,7 +2,7 @@
 
 .root {
   top: 0;
-  padding: 5rem 3rem 5rem 0;
+  padding: 3rem 3rem 5rem 0;
   position: sticky;
   width: 18rem;
   flex-shrink: 0;
@@ -14,21 +14,60 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 80rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .link,
-.parentLink {
+.parentLink,
+.childLink {
   font-size: 1rem;
   font-weight: 300;
   color: $textColor;
   line-height: 1.4;
-  padding: 0.6rem 0;
+  padding: 0.75rem 0;
   display: block;
   transition: 0.2s ease color;
+  cursor: pointer;
   &:hover,
-  &:active {
+  &:active,
+  &:global(.active) {
     color: $linkColor;
+  }
+  ~ div {
+    overflow: hidden;
+    height: 0;
+  }
+}
+
+.parentLink {
+  display: flex;
+  align-items: center;
+  &:global(.active) ~ div {
+    overflow: visible;
+    height: auto;
+  }
+  &:global(.active) {
+    svg {
+      transform: rotate(90deg) translate(2px, 0);
+    }
+  }
+}
+
+.svg {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.childLink {
+  border-left: 1px solid $gray-light-4;
+  padding: 0.25rem 0 0.25rem 2rem;
+  &:hover,
+  &:active,
+  &:global(.active) {
+    color: $linkColor;
+    border-left-color: $linkColor;
   }
 }
