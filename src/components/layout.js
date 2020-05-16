@@ -1,35 +1,28 @@
 import React from "react"
 import { Link } from "gatsby"
 import Nav from "./nav.js"
+import styles from "./layout.module.scss"
 
-const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  let header
-
-  if (location.pathname === rootPath) {
-    header = (
-      <h1>
-        <Link to={`/`}>{title}</Link>
-      </h1>
-    )
-  } else {
-    header = (
-      <h3>
-        <Link to={`/`}>{title}</Link>
-      </h3>
-    )
-  }
+const Layout = ({ title, children }) => {
   return (
-    <div>
-      <header>{header}</header>
-      <Nav />
-      <main>{children}</main>
+    <>
+      <header className={styles.header}>
+        <div className={styles.contain}>
+          <h1 className={styles.title}>
+            <Link to={`/`}>{title}</Link>
+          </h1>
+        </div>
+      </header>
+      <div className={styles.contain}>
+        <Nav />
+        <main className={styles.content}>{children}</main>
+      </div>
       <footer>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
-    </div>
+    </>
   )
 }
 
