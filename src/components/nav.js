@@ -76,7 +76,6 @@ const Nav = () => {
                   if (node.frontmatter.section === section) {
                     const childTitle =
                       node.frontmatter.title || node.fields.slug
-                    const childSequence = node.frontmatter.sequence
                     return (
                       <li>
                         <Link
@@ -84,7 +83,7 @@ const Nav = () => {
                           className={styles.childLink}
                           activeClassName="active"
                         >
-                          {childSequence}.&nbsp;{childTitle}
+                          {childTitle}
                         </Link>
                       </li>
                     )

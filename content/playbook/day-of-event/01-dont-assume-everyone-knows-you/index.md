@@ -1,7 +1,7 @@
 ---
 title: "Don’t Assume Everyone Knows You"
 section: "Day of Event"
-sequence: "1"
+sequence: "01"
 type: child
 ---
 

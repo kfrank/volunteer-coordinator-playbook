@@ -1,12 +1,12 @@
 ---
 title: "Plan for the Unexpected"
 section: "Day of Event"
-sequence: "4"
+sequence: "04"
 type: child
 ---
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+Your volunteers may encouter a tough situation they can’t easily solve and feel uncomfortable and unsure of what to do next. These situations can often be the most frustrating for volunteers.  Having a plan in place will help volunteers feel more comfortable and willing to continue to volunteer in the future.
 
-## What’s a Volunteer Coordinator?
+- Have someone more experienced nearby new volunteers can easily see and ask for help.
 
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+- Let the new volunteers know this is the person they can ask for help.

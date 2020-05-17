@@ -104,3 +104,11 @@ section {
   background: white;
   display: table;
 }
+
+.bottomImage {
+  transform: scale(0.5);
+}
+.bottomImageContainer {
+  display: flex;
+  justify-content: end;
+}

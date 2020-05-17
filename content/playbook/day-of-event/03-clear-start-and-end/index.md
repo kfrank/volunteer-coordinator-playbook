@@ -1,7 +1,7 @@
 ---
 title: "Have a Clear Start and End Time"
 section: "Day of Event"
-sequence: "3"
+sequence: "03"
 type: child
 ---
 

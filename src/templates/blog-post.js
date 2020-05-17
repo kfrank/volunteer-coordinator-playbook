@@ -4,6 +4,7 @@ import styles from "./blog-post.module.scss"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Img from "gatsby-image"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -14,7 +15,7 @@ const BlogPostTemplate = ({ data, location }) => {
       <SEO title={post.frontmatter.title} />
       <article>
         <header>
-          {post.frontmatter.type == "child" ? (
+          {post.frontmatter.type === "child" ? (
             <>
               <span className={styles.page}>{post.frontmatter.sequence}</span>
               <h2>{post.frontmatter.section}</h2>
@@ -25,6 +26,7 @@ const BlogPostTemplate = ({ data, location }) => {
           <h1>{post.frontmatter.title}</h1>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
+
         {post.frontmatter.calloutText ? (
           <div className={styles.callout}>
             <h3 className={styles.calloutTitle}>
@@ -33,6 +35,17 @@ const BlogPostTemplate = ({ data, location }) => {
             <div className={styles.calloutCopy}>
               {post.frontmatter.calloutText}
             </div>
+          </div>
+        ) : (
+          <></>
+        )}
+
+        {post.frontmatter.image ? (
+          <div className={styles.bottomImageContainer}>
+            <Img
+              fixed={post.frontmatter.image.childImageSharp.fixed}
+              className={styles.bottomImage}
+            />
           </div>
         ) : (
           <></>
@@ -62,6 +75,13 @@ export const pageQuery = graphql`
         calloutTitle
         calloutText
         type
+        image {
+          childImageSharp {
+            fixed {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
       }
     }
   }
