@@ -24,6 +24,7 @@ const Nav = () => {
       }
       child: allMarkdownRemark(
         filter: { frontmatter: { type: { eq: "child" } } }
+        sort: { fields: frontmatter___sequence }
       ) {
         edges {
           node {
@@ -74,6 +75,7 @@ const Nav = () => {
                   if (node.frontmatter.section === section) {
                     const childTitle =
                       node.frontmatter.title || node.fields.slug
+                    const childSequence = node.frontmatter.sequence
                     return (
                       <li>
                         <Link
@@ -81,7 +83,7 @@ const Nav = () => {
                           className={styles.childLink}
                           activeClassName="active"
                         >
-                          {childTitle}
+                          {childSequence}.&nbsp;{childTitle}
                         </Link>
                       </li>
                     )

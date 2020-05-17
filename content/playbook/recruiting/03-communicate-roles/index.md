@@ -1,7 +1,7 @@
 ---
-title: "Review Open Volunteer Roles"
-section: "Recuiting"
-sequence: "1"
+title: "Communicate Roles"
+section: "Recruiting"
+sequence: "3"
 type: child
 ---
 

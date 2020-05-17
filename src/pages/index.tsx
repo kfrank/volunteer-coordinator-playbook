@@ -13,7 +13,7 @@ type Data = {
   }
 }
 
-const BlogIndex = ({ data, location }: PageProps<Data>) => {
+const Index = ({ data, location }: PageProps<Data>) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
@@ -23,7 +23,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
   )
 }
 
-export default BlogIndex
+export default Index
 
 export const titleQuery = graphql`
   query {
