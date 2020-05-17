@@ -3,12 +3,27 @@ title: "Hold a Team Kickoff Meeting"
 section: "Planning"
 sequence: "2"
 type: child
-calloutTitle: "Case Study"
-calloutText: "At the Granite Curling Club, Robert got together a group of volunteers to clean up the yard and parking lot outside as well as do gardening to spruce things up. Since it was an unusually hot summer day in Seattle, Robert made sure to have a cooler full of cold water and drinks available and specifically told individual volunteers to take breaks for as long as they needed. Because their basic needs were taken care of, Robert’s volunteers were so happy with this experience that almost all of them decided to volunteer again the following month."
 ---
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+- A key motivator for volunteering is hanging out with fellow club members and establishing new friendships
+- Work with your volunteer leads to create a community around the event planning
+- Ideally meet over a meal at your home or in the curling club bar
+- Get to know your leads and build rapport
+- Build a shared sense of mission
+- Target date is 3 months before the event
 
-## What’s a Volunteer Coordinator?
-
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+| Example Agenda                  |
+| ------------------------------- |
+| Introductions                   |
+|                                 |
+| What are you hoping to achieve? |
+|                                 |
+| Rough budget for the event      |
+|                                 |
+| Rough timeline for the event    |
+|                                 |
+| Next milestone                  |
+|                                 |
+| Assign action items             |
+|                                 |
+| Determine next meeting          |

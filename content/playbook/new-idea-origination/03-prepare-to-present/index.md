@@ -5,8 +5,11 @@ sequence: "3"
 type: child
 ---
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+Ensure you have thought through the following:
 
-## What’s a Volunteer Coordinator?
-
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+- **Description:** What your event is
+- **Timeline:** When you plan to have the event occur
+- **Budget:** Roughly how much will the event cost? How much revenue will the event produce?
+- **Estimated level of effort:** How much time will it take to accomplish your goal?
+- **Estimated number of volunteers needed:** How much help do you need to pull this off?
+- **Qualifications/Past Experience:** What have you done in the past that qualifies you to lead this event?

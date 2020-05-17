@@ -63,7 +63,10 @@
 
 .childLink {
   border-left: 1px solid $gray-light-4;
-  padding: 0.25rem 0 0.25rem 2rem;
+  padding: 0.5rem 0 0.5rem 2.5rem;
+  margin-left: 0.25rem;
+  text-indent: -1.125rem;
+  cursor: pointer;
   &:hover,
   &:active,
   &:global(.active) {

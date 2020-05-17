@@ -4,11 +4,20 @@ section: "Recruiting"
 sequence: "2"
 type: child
 calloutTitle: "Case Study"
-calloutText: "At the Granite Curling Club, Robert got together a group of volunteers to clean up the yard and parking lot outside as well as do gardening to spruce things up. Since it was an unusually hot summer day in Seattle, Robert made sure to have a cooler full of cold water and drinks available and specifically told individual volunteers to take breaks for as long as they needed. Because their basic needs were taken care of, Robert’s volunteers were so happy with this experience that almost all of them decided to volunteer again the following month."
+calloutText: "Hesitant Harriet is considering volunteering at her local curling club’s next event, but she is not entirely sure what being a volunteer means. She opens the event sign up sheet to investigate, and sees the roles and time slots clearly spelled out. She notices there is an open role on the event set up team and she reads role description under the title. She sees she needs to be familiar with power tools for this role. Harriet loves power tools! Suddenly excited by the challenges ahead, she signs up  to volunteer for the 2-hour slot on Sunday because she knows her partner will be able to watch the kids at that time. 
+"
 ---
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+A good sign-up sheet doesn’t just tell you who is interested in volunteering. It acts as a tool for the volunteers themselves, and if crafted well it can ease volunteer worries and encourage more sign ups.
 
-## What’s a Volunteer Coordinator?
+The sign up sheet should...
 
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+- Be easy to find
+
+  - Include volunteer role descriptions
+  - Allow sign up by time slot
+
+- Consider using an existing tool
+
+  - A Spreadsheet template
+  - A digital tool such as SignUp Genius

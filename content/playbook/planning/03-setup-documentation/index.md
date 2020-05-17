@@ -5,8 +5,10 @@ sequence: "3"
 type: child
 ---
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-## What’s a Volunteer Coordinator?
-
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+- Create a shared drive to store event planning materials
+- Establish a folder for each lead to use
+- Agree upon communication protocol (email vs slack)
+- Leverage existing templates
+- Create new templates as needed
+- Document the steps you took
+- Centralize budget tracking and receipt upload

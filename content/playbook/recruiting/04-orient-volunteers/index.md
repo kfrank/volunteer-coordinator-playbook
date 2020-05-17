@@ -1,14 +1,26 @@
 ---
-title: "Orient Your Volunteers"
+title: "Before the event: Orient Your Volunteers"
 section: "Recruiting"
 sequence: "4"
 type: child
 calloutTitle: "Case Study"
-calloutText: "At the Granite Curling Club, Robert got together a group of volunteers to clean up the yard and parking lot outside as well as do gardening to spruce things up. Since it was an unusually hot summer day in Seattle, Robert made sure to have a cooler full of cold water and drinks available and specifically told individual volunteers to take breaks for as long as they needed. Because their basic needs were taken care of, Robert’s volunteers were so happy with this experience that almost all of them decided to volunteer again the following month."
+calloutText: "Nervous Nelly is you guessed it - nervous! She just signed up to volunteer for an event at her curling club. This is the first time she has signed up to volunteer and she is not sure what to expect. Luckily Coordinator Cal sends her an email a few days after signing up reminding her of her roles and volunteer time. In addition Cal suggests she joins the volunteer mixer, scheduled the day before the event so she can meet other volunteers and get a better sense of what to expect. After reading the email Nelly breathes a sigh of relief. She let’s Cal know she will be at the event. She is excited to volunteer and make new friends! 
+"
 ---
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+Volunteers have signed up for your event (yay!) - now it’s time to give them a shout out and make sure they feel part of the team/ know what’s going on.
 
-## What’s a Volunteer Coordinator?
+- Send out a welcome email
 
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+  - Reiterate the role expectation
+  - Remind them of the shift time
+  - Thank them for signing up
+
+###Volunteers - Unite! The Pre-event Mixer:
+
+Consider gathering the volunteers virtually or in-person before the day of the event. The event can be as short or as long as you would like. The event should include:
+
+1. Nametags that include name as well as volunteer role
+2. Introductions
+3. Snacks & drinks (if in-person)
+4. Mingling

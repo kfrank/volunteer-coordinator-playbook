@@ -3,12 +3,13 @@ title: "Getting Your Idea Approved"
 section: "New Idea Origination"
 sequence: "1"
 type: child
-calloutTitle: "Case Study"
-calloutText: "At the Granite Curling Club, Robert got together a group of volunteers to clean up the yard and parking lot outside as well as do gardening to spruce things up. Since it was an unusually hot summer day in Seattle, Robert made sure to have a cooler full of cold water and drinks available and specifically told individual volunteers to take breaks for as long as they needed. Because their basic needs were taken care of, Robert’s volunteers were so happy with this experience that almost all of them decided to volunteer again the following month."
+calloutTitle: "Example Idea Description"
+calloutText: "Launch a new curling tournament format designed to provide a low barrier to bonspiel participation. Take the bonspiel team formation barrier findings and use them to create an individual sign up spiel at the beginning of the season to allow club members to meet new people and form teams for future events. Replace the 25 and Under Spiel with the new format to encourage higher levels of club member participation."
 ---
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+Write up a description of your idea and be as specific as possible. When writing your description, try to think about:
 
-## What’s a Volunteer Coordinator?
-
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+- What problem are you solving?
+- What opportunity have you identified?
+- Why is this important?
+- How will this idea help advance the mission of the organization?

@@ -57,6 +57,7 @@ const Nav = () => {
               to={node.fields.slug}
               className={styles.parentLink}
               activeClassName="active"
+              partiallyActive={true}
             >
               <svg width="5" height="8" className={styles.svg}>
                 <path
@@ -70,7 +71,7 @@ const Nav = () => {
               {title}
             </Link>
             <div>
-              <ul>
+              <ol>
                 {children.map(({ node }) => {
                   if (node.frontmatter.section === section) {
                     const childTitle =
@@ -89,28 +90,11 @@ const Nav = () => {
                     )
                   }
                 })}
-                {/* <Link to={node.fields.slug} className={styles.childLink}>
-                    {title}
-                  </Link> */}
-              </ul>
+              </ol>
             </div>
           </li>
         )
       })}
-
-      {/* 
-      {pages.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        const sequence = node.frontmatter.sequence
-        return (
-          <li>
-            <Link to={node.fields.slug} className={styles.link}>
-              {sequence}&nbsp;
-              {title}
-            </Link>
-          </li>
-        )
-      })} */}
     </nav>
   )
 }

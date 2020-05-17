@@ -5,8 +5,7 @@ sequence: "1"
 type: child
 ---
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+...or where to find you. The first challenge a new volunteer has when arriving at an event is figuring out where they should be and what they should be doing. This can become frustrating if they can’t find a volunteer coordinator or event leader to check-in with, or don’t know who to ask for help.
 
-## What’s a Volunteer Coordinator?
-
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+- Wear a name tag with a special symbol that designates you as a volunteer coordinator.
+- If you have to leave the area you told volunteers you’d be in when they arrived, designate a person  who can stay to direct new volunteers.

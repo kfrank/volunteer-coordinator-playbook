@@ -5,8 +5,17 @@ sequence: "1"
 type: child
 ---
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+Before recruiting volunteers, it is important to review the volunteer roles you want to fill ahead of time to make sure your team hasn’t missed something. This information can be pulled from past events, or built from the ground up. Review the following steps to help you prepare for recruitment:
 
-## What’s a Volunteer Coordinator?
+- Organize Your Intel (20 mins)
 
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+  - Write out all of the tasks that you need volunteers to complete
+  - Group the similar tasks together to form specific volunteer roles
+  - Add titles to those roles
+
+- Team up (10 mins)
+
+  - Look at each role and ask yourself: How many people do you need in total for this role?
+  - _Hint: Consider number of volunteer shifts and amount of work_
+
+- Write it out (2 mins per role)
