@@ -11,6 +11,7 @@ const Layout = ({ title, children }) => {
           <h1 className={styles.title}>
             <Link to={`/`}>{title}</Link>
           </h1>
+          <Link to="">Download PDF</Link>
         </div>
       </header>
       <div className={styles.contain}>

@@ -8,6 +8,11 @@
   &:active {
     color: $linkColor;
   }
+  .contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 }
 
 .contain {
