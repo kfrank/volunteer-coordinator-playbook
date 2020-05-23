@@ -17,8 +17,13 @@ exports.createPages = async ({ graphql, actions }) => {
               fields {
                 slug
               }
+              excerpt(pruneLength: 600)
               frontmatter {
                 title
+                section
+                type
+                sectionPage
+                page
               }
             }
           }

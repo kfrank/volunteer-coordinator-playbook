@@ -12,6 +12,7 @@
     margin: 0;
     font-size: 1rem;
     width: 10rem;
+    line-height: 1.1;
     a {
       &:hover,
       &:active {
@@ -25,6 +26,32 @@
     align-items: baseline;
   }
 }
+
+.logo {
+  margin-bottom: 0.5rem;
+  max-height: 22px;
+  max-width: 80%;
+}
+
+.contain {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 1.5rem;
+  transition: 0.2s ease all;
+}
+
+//
+// Responsive Navigation
+//
 
 .navToggle {
   height: 22px;
@@ -89,31 +116,19 @@ nav {
   transform: scale(-1) translateX(-30px);
 }
 
-.logo {
-  margin-bottom: 0.5rem;
-  max-height: 22px;
-  max-width: 80%;
-}
-
-.contain {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 80rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  display: flex;
-  align-items: flex-start;
-}
-
-.title {
-  font-weight: 800;
-  font-size: 1.5rem;
-  transition: 0.2s ease all;
-}
+//
+// Content
+//
 
 .content {
   width: 100%;
   margin-top: 2rem auto;
-  padding-left: 2.5rem;
   height: 100%;
+  .contain {
+    display: block;
+  }
+  article {
+    max-width: 50rem;
+    margin: 0 auto 7rem;
+  }
 }

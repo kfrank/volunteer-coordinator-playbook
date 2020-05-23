@@ -26,7 +26,11 @@ const Layout = ({ title, children }) => {
             className={styles.navToggleInput}
             id="navToggle"
           />
-          <label for="navToggle" className={styles.navToggle}>
+          <label
+            htmlFor="navToggle"
+            for="navToggle"
+            className={styles.navToggle}
+          >
             <svg
               width="11"
               height="18"

@@ -1,33 +1,49 @@
 @import "../styles/colors.scss";
 
-.page {
-  font-size: 9rem;
+.pageNumber {
+  font-size: 6rem;
   line-height: 1.1;
-  font-weight: 800;
+  font-weight: 900;
   color: $accentColor;
   opacity: 0.2;
   position: absolute;
-  top: -5.5rem;
-  left: -3rem;
+  top: -0.45rem;
+  left: -4.5rem;
 }
 
 header {
   position: relative;
+  margin-bottom: 2rem;
 
   h1 {
     line-height: 1.2;
-    margin-top: 2rem;
+    margin: 2rem 0 0;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 90.6%;
   }
 
   h2 {
     font-weight: 300;
-    font-size: 1.25rem;
-    margin: 2rem 0 -2rem;
+    font-size: 1rem;
+    line-height: 90.6%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 2rem 0 -1.5rem;
   }
 }
 
 section {
-  max-width: 50rem;
+  margin-bottom: 3rem;
+  h2 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 120%;
+  }
+  h2 + p {
+    margin-top: 2rem;
+  }
   p {
     margin-bottom: 1rem;
   }
@@ -112,4 +128,132 @@ section {
 .bottomImageContainer {
   display: flex;
   justify-content: end;
+}
+
+article {
+  margin-bottom: 3rem;
+}
+
+.nextPage {
+  position: relative;
+  display: block;
+  .nextPageContainer {
+    max-width: 50rem;
+    margin: 0 auto;
+    position: relative;
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 1.125rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: black;
+    display: block;
+    border-bottom: 2px solid $accentColor;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+    line-height: 90.6%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  h4 {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.1;
+  }
+  .nextPageNumber {
+    position: absolute;
+    font-weight: 900;
+    font-size: 6rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba($accentColor, 0.2);
+    left: -5rem;
+    top: -2.125rem;
+  }
+}
+
+.nextPageButton {
+  display: block;
+  text-align: center;
+  padding-bottom: 2rem;
+  box-shadow: 0 -50px 50px white;
+  z-index: 5;
+  position: relative;
+  span {
+    background: black;
+    color: white;
+    // mix-blend-mode: difference;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1.25rem 0.75rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+  }
+  svg {
+    margin-left: 0.675rem;
+  }
+}
+
+.nextExcerpt {
+  margin-top: 2rem;
+}
+
+h4.nextPageSection {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.nextPage {
+  transition: 0.5s ease all;
+  h2 {
+    transition: 0.2s ease all;
+  }
+  .nextPageButton span {
+    transition: 0.2s ease all;
+  }
+}
+
+.nextPage:hover,
+.nextPage:active {
+  h2 {
+    color: $linkColor;
+    border-color: $linkColor;
+  }
+  .nextPageButton span {
+    background: $linkColor;
+    animation-name: bounce;
+    animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  57% {
+    transform: translateY(-7px);
+  }
+  64% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

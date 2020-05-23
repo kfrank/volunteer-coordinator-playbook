@@ -5,8 +5,8 @@ module.exports = {
       name: `Klare Frank`,
       summary: `with Jessica Schultz, Alison Buchanan, and Jami Odell for HCDE Captson at the University of Washington.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `A template for managing your organization’s volunteer best practices.`,
+    siteUrl: `https://klare.io/volunteer-coordinator-playbook`,
     social: {
       twitter: `klare`,
     },
@@ -69,7 +69,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Inter\:300,400,400i,700,800`, // you can also specify font weights and styles
+          `Inter\:300,400,400i,700,900`, // you can also specify font weights and styles
         ],
         display: "swap",
       },
