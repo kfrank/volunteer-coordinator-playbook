@@ -3,13 +3,15 @@
 .heroImage {
   margin: 0 -2.5rem;
   padding: 0;
-  max-height: 500px;
   background: $accentColor;
   background: linear-gradient(
     0deg,
     $accentColor 0%,
     $secondaryAccentColor 100%
   );
+  :global(.gatsby-image-wrapper) {
+    max-height: 500px;
+  }
 }
 
 .pageNumber {

@@ -7,6 +7,11 @@
     grid-template-columns: 300px 1fr;
   }
 }
+.navContainer :global(.gatsby-image-wrapper) {
+  margin-bottom: 0.5rem;
+  max-height: 22px;
+  max-width: 80%;
+}
 .header {
   h1 {
     margin: 0;
@@ -25,12 +30,6 @@
     justify-content: space-between;
     align-items: baseline;
   }
-}
-
-.logo {
-  margin-bottom: 0.5rem;
-  max-height: 22px;
-  max-width: 80%;
 }
 
 .contain {

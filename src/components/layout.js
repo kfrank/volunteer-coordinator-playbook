@@ -1,24 +1,13 @@
 import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import Img from "gatsby-image"
+
 import Nav from "./nav.js"
+import Logo from "./logo.js"
 import Download from "./download.js"
 import styles from "./layout.module.scss"
 import { TransitionPortal } from "gatsby-plugin-transition-link"
 
 const Layout = ({ title, children }) => {
-  const data = useStaticQuery(graphql`
-    query LayoutQuery {
-      file(relativePath: { eq: "logo.png" }) {
-        childImageSharp {
-          fluid(maxHeight: 22) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
   return (
     <>
       <div className={styles.root}>
@@ -48,14 +37,7 @@ const Layout = ({ title, children }) => {
                 </svg>
               </label>
               <div className={styles.navContainer}>
-                <Img
-                  fluid={data.file.childImageSharp.fluid}
-                  className={styles.logo}
-                  imgStyle={{
-                    objectFit: "contain",
-                    objectPosition: "left center",
-                  }}
-                />
+                <Logo className={styles.logo} />
                 <h1 className={styles.title}>
                   <AniLink cover direction="up" bg="white" to={`/`}>
                     {title}
