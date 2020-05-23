@@ -77,6 +77,13 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title={`Volunteer Playbook | ${post.frontmatter.title}`} />
+      {post.frontmatter.coverImage ? (
+        <div className={styles.heroImage}>
+          <Img fluid={post.frontmatter.coverImage.childImageSharp.fluid} />
+        </div>
+      ) : (
+        <></>
+      )}
       <article>
         <header>
           {post.frontmatter.type === "child" ? (
@@ -163,6 +170,13 @@ export const pageQuery = graphql`
         sectionPage
         calloutTitle
         calloutText
+        coverImage {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         type
         image {
           childImageSharp {

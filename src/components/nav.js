@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import styles from "./nav.module.scss"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 

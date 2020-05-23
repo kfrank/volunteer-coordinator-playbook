@@ -4,6 +4,7 @@ section: "Recurring Events"
 sectionPage: "2"
 page: "03"
 type: parent
+coverImage: "peeps.png"
 ---
 
 ## How to make recurring events more transparent

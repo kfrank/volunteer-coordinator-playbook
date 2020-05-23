@@ -14,6 +14,8 @@ Key to engaging new volunteers is making detailed information about volunteer ro
 - List all volunteer leadership roles for the event
 - As roles are filled, update the page
 
+---
+
 Each recurring event should maintain a volunteer information page with the following details:
 
 **Event Title:**

@@ -4,6 +4,7 @@ section: "New Idea Origination"
 sectionPage: "3"
 type: parent
 page: "07"
+coverImage: "peeps.png"
 ---
 
 To allow for growth and engagement it is critical to allow volunteer coordinators to propose new volunteer events for your organization. Ensure your organization makes it easy for members to see what the process of getting an event approved is.

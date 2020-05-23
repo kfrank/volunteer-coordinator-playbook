@@ -1,5 +1,17 @@
 @import "../styles/colors.scss";
 
+.heroImage {
+  margin: 0 -2.5rem;
+  padding: 0;
+  max-height: 500px;
+  background: $accentColor;
+  background: linear-gradient(
+    0deg,
+    $accentColor 0%,
+    $secondaryAccentColor 100%
+  );
+}
+
 .pageNumber {
   font-size: 6rem;
   line-height: 1.1;
@@ -7,8 +19,9 @@
   color: $accentColor;
   opacity: 0.2;
   position: absolute;
-  top: -0.45rem;
-  left: -4.5rem;
+  top: -0.25rem;
+  left: 0;
+  transform: translateX(-90%);
 }
 
 header {
@@ -93,12 +106,18 @@ header {
   li {
     margin-left: 1rem;
     margin-bottom: 0.5rem;
+    background: url("./listArrow.svg") no-repeat left top;
+    list-style: none;
+    padding-left: 3.5rem;
     p + ul {
       margin-top: -0.5rem;
     }
     li {
       margin-left: 2rem;
     }
+  }
+  hr {
+    margin: 2rem 0;
   }
   table {
     border: 1px solid $accentColor;

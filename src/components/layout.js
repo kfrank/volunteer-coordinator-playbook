@@ -1,5 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Img from "gatsby-image"
 import Nav from "./nav.js"
 import Download from "./download.js"
@@ -56,7 +57,9 @@ const Layout = ({ title, children }) => {
                   }}
                 />
                 <h1 className={styles.title}>
-                  <Link to={`/`}>{title}</Link>
+                  <AniLink cover direction="up" bg="white" to={`/`}>
+                    {title}
+                  </AniLink>
                 </h1>
                 <Nav />
               </div>

@@ -4,6 +4,7 @@ section: "Intro"
 sectionPage: "1"
 page: "01"
 type: parent
+coverImage: "peeps.png"
 ---
 
 ## How to use this playbook & get the most out of your volunteers.
