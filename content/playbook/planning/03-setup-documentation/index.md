@@ -1,8 +1,9 @@
 ---
 title: "Setup your Documentation and Shared Processes"
 section: "Planning"
-sequence: "3"
+sectionPage: "3"
 type: child
+page: "16"
 ---
 
 - Create a shared drive to store event planning materials

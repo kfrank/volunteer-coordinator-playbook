@@ -7,12 +7,12 @@ const Nav = () => {
     query SectionsQuery {
       parent: allMarkdownRemark(
         filter: { frontmatter: { type: { eq: "parent" } } }
-        sort: { fields: frontmatter___sequence }
+        sort: { fields: frontmatter___sectionPage }
       ) {
         edges {
           node {
             frontmatter {
-              sequence
+              sectionPage
               title
               section
             }
@@ -24,12 +24,12 @@ const Nav = () => {
       }
       child: allMarkdownRemark(
         filter: { frontmatter: { type: { eq: "child" } } }
-        sort: { fields: frontmatter___sequence }
+        sort: { fields: frontmatter___sectionPage }
       ) {
         edges {
           node {
             frontmatter {
-              sequence
+              sectionPage
               title
               type
               section
@@ -71,7 +71,7 @@ const Nav = () => {
               {title}
             </Link>
             <div>
-              <ol>
+              <ol className={styles.childList}>
                 {children.map(({ node }) => {
                   if (node.frontmatter.section === section) {
                     const childTitle =

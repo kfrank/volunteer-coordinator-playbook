@@ -1,8 +1,9 @@
 ---
 title: "Don’t wait for volunteers to come to you"
 section: "Day of Event"
-sequence: "08"
+sectionPage: "08"
 type: child
+page: "31"
 ---
 
 Some volunteers may not be as comfortable asking for help when they need it or be as extroverted to seek out assistance immediately.

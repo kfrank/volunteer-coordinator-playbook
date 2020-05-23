@@ -1,18 +1,95 @@
 @import "../styles/colors.scss";
-
+.root {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 60px 1fr;
+  @media screen and (min-width: 1000px) {
+    grid-template-columns: 300px 1fr;
+  }
+}
 .header {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  transition: 0.2s ease color;
-  &:hover,
-  &:active {
-    color: $linkColor;
+  h1 {
+    margin: 0;
+    font-size: 1rem;
+    width: 10rem;
+    a {
+      &:hover,
+      &:active {
+        color: $linkColor;
+      }
+    }
   }
   .contain {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
   }
+}
+
+.navToggle {
+  height: 22px;
+  display: block;
+  transform-origin: left top;
+  cursor: pointer;
+  @media screen and (min-width: 1000px) {
+    transform: scale(0);
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+.navContainer {
+  overflow-y: scroll;
+  height: 100%;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 300px;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 4rem;
+  background: #fff;
+  border-right: 1px solid $borderColor;
+  transform: translateX(-250px);
+  transition: transform 250ms ease-in-out;
+
+  @media screen and (min-width: 1000px) {
+    transform: translateX(0);
+  }
+}
+
+nav {
+  transform: translateX(-250px);
+  transition: transform 250ms ease-in-out;
+  @media screen and (min-width: 1000px) {
+    transform: translateX(0);
+  }
+}
+.navToggle {
+  display: block;
+  position: relative;
+  z-index: 20;
+  left: 6px;
+  top: -0.25rem;
+  transition: 0.3s ease all;
+  @media screen and (min-width: 1000px) {
+    display: none;
+  }
+}
+.navToggleInput:checked ~ .navContainer {
+  transform: translateX(0);
+  nav {
+    transform: translateX(0);
+  }
+}
+
+.navToggleInput:checked ~ .navToggle {
+  left: 250px;
+}
+
+.logo {
+  margin-bottom: 0.5rem;
+  max-height: 22px;
 }
 
 .contain {
@@ -28,10 +105,12 @@
 .title {
   font-weight: 800;
   font-size: 1.5rem;
+  transition: 0.2s ease all;
 }
 
 .content {
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 2rem auto;
   padding-left: 2.5rem;
+  height: 100%;
 }

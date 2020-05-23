@@ -1,8 +1,9 @@
 ---
 title: "Open Volunteer Leadership Roles Listing"
 section: "Recurring Events"
-sequence: "2"
+sectionPage: "2"
 type: child
+page: "05"
 ---
 
 Key to engaging new volunteers is making detailed information about volunteer roles available.

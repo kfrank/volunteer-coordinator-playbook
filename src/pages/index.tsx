@@ -19,6 +19,9 @@ const Index = ({ data, location }: PageProps<Data>) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Playbook" />
+      <h1>Volunteer Coordinator Playbook</h1>
+      <h2>How to make it a success!</h2>
+      <Link to="/intro">Get started</Link>
     </Layout>
   )
 }

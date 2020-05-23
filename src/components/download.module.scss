@@ -1,0 +1,49 @@
+@import "../styles/colors.scss";
+
+.root {
+  display: block;
+  z-index: 20;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 0 1rem 1rem;
+  background: #fff;
+  @media screen and (min-width: 1000px) {
+    left: 0;
+    padding: 1rem 0 1rem 1.6rem;
+    width: 300px;
+    border-right: 1px solid $borderColor;
+    box-shadow: -10px -20px 20px rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .label {
+    display: none;
+    @media screen and (min-width: 1000px) {
+      display: block;
+      opacity: 0;
+      transform: translateY(100%);
+      transition: 0.2s ease all;
+    }
+  }
+  svg path {
+    transition: 0.2s ease all;
+  }
+  &:hover,
+  &:active {
+    .label {
+      opacity: 1;
+      transform: translateY(0);
+      color: $linkColor;
+    }
+    svg path {
+      fill: $linkColor;
+    }
+  }
+}
+
+.label {
+  margin-left: 0.5rem;
+}

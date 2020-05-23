@@ -1,8 +1,9 @@
 ---
 title: "Review Open Volunteer Roles"
 section: "Recruiting"
-sequence: "1"
+sectionPage: "1"
 type: child
+page: "18"
 ---
 
 Before recruiting volunteers, it is important to review the volunteer roles you want to fill ahead of time to make sure your team hasn’t missed something. This information can be pulled from past events, or built from the ground up. Review the following steps to help you prepare for recruitment:

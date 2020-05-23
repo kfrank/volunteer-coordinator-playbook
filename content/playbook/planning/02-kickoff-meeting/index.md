@@ -1,8 +1,9 @@
 ---
 title: "Hold a Team Kickoff Meeting"
 section: "Planning"
-sequence: "2"
+sectionPage: "2"
 type: child
+page: "15"
 ---
 
 - A key motivator for volunteering is hanging out with fellow club members and establishing new friendships

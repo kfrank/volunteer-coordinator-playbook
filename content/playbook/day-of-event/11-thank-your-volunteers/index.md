@@ -1,8 +1,9 @@
 ---
 title: "Thank your volunteers for coming"
 section: "Day of Event"
-sequence: "11"
+sectionPage: "11"
 type: child
+page: "34"
 image: "peep-standing-16.png"
 ---
 

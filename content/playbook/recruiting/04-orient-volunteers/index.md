@@ -1,8 +1,9 @@
 ---
 title: "Before the event: Orient Your Volunteers"
 section: "Recruiting"
-sequence: "4"
+sectionPage: "4"
 type: child
+page: "21"
 calloutTitle: "Case Study"
 calloutText: "Nervous Nelly is you guessed it - nervous! She just signed up to volunteer for an event at her curling club. This is the first time she has signed up to volunteer and she is not sure what to expect. Luckily Coordinator Cal sends her an email a few days after signing up reminding her of her roles and volunteer time. In addition Cal suggests she joins the volunteer mixer, scheduled the day before the event so she can meet other volunteers and get a better sense of what to expect. After reading the email Nelly breathes a sigh of relief. She let’s Cal know she will be at the event. She is excited to volunteer and make new friends! 
 "

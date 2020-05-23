@@ -1,8 +1,9 @@
 ---
 title: "Don’t Assume Everyone Knows You"
 section: "Day of Event"
-sequence: "01"
+sectionPage: "01"
 type: child
+page: "24"
 ---
 
 ...or where to find you. The first challenge a new volunteer has when arriving at an event is figuring out where they should be and what they should be doing. This can become frustrating if they can’t find a volunteer coordinator or event leader to check-in with, or don’t know who to ask for help.

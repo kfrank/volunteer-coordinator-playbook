@@ -1,8 +1,9 @@
 ---
 title: "Present Your Idea"
 section: "New Idea Origination"
-sequence: "5"
+sectionPage: "5"
 type: child
+page: "12"
 image: "peeps.png"
 ---
 

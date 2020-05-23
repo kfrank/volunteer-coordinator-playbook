@@ -1,8 +1,9 @@
 ---
 title: "Connect new people together"
 section: "Day of Event"
-sequence: "10"
+sectionPage: "10"
 type: child
+page: "33"
 calloutTitle: "Case Study"
 calloutText: "At the Granite Curling Club, cliques naturally form together. It’s common to see the same people hanging out together. Katie and Jacob were new members looking to make friends at the curling club. They weren’t having much luch breaking into social circles until Katie volunteered them both to help out at a bonspiel event. Katie ended up being in the kitchen helping with lunch prep and made new friends she later introduced Jacob to. Now both of them know more people, get invited to more activities, and feel even more welcomed at the club."
 ---

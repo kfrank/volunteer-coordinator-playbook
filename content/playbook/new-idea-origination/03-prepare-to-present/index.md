@@ -1,8 +1,9 @@
 ---
 title: "Prepare to Present Your Idea to the Board"
 section: "New Idea Origination"
-sequence: "3"
+sectionPage: "3"
 type: child
+page: "10"
 ---
 
 Ensure you have thought through the following:

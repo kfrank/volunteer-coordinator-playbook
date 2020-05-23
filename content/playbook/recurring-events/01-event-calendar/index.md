@@ -1,8 +1,9 @@
 ---
 title: "Event Calendar"
 section: "Recurring Events"
-sequence: "1"
+sectionPage: "1"
 type: child
+page: "04"
 ---
 
 Key to engaging new volunteer coordinators is publicizing opportunities well in advance, the **recommended time is 6 months before the event will occur**. The Granite Curling Club maintains a Google calendar to schedule events at the club. When events are approved by the board and scheduled the club calendar is updated.

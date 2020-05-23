@@ -1,14 +1,24 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import styles from "./blog-post.module.scss"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
 
-const BlogPostTemplate = ({ data, location }) => {
+const BlogPostTemplate = ({ data, location, pageContext }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
+
+  const { next, previous } = pageContext
+  const nextArticle = next && (
+    <Link to={next.fields.slug}>
+      <strong>Keep reading</strong> <br />
+      <span className={styles.page}>{next.frontmatter.page}</span>
+      {next.frontmatter.title}
+      {next.excerpt}
+    </Link>
+  )
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -17,7 +27,9 @@ const BlogPostTemplate = ({ data, location }) => {
         <header>
           {post.frontmatter.type === "child" ? (
             <>
-              <span className={styles.page}>{post.frontmatter.sequence}</span>
+              <span className={styles.page}>
+                {post.frontmatter.sectionPage}
+              </span>
               <h2>{post.frontmatter.section}</h2>
             </>
           ) : (
@@ -51,6 +63,7 @@ const BlogPostTemplate = ({ data, location }) => {
           <></>
         )}
       </article>
+      {nextArticle}
     </Layout>
   )
 }
@@ -64,6 +77,23 @@ export const pageQuery = graphql`
         title
       }
     }
+    allMarkdownRemark(sort: { order: ASC, fields: frontmatter___page }) {
+      edges {
+        node {
+          id
+        }
+        next {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            page
+          }
+        }
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
@@ -71,7 +101,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         section
-        sequence
+        sectionPage
         calloutTitle
         calloutText
         type

@@ -1,8 +1,9 @@
 ---
 title: "Communicate Roles"
 section: "Recruiting"
-sequence: "3"
+sectionPage: "3"
 type: child
+page: "20"
 calloutTitle: "Case Study"
 calloutText: "Lonely Leonard wants to get more involved in volunteering at his local curling club to build friendships and contribute to a cause he is passionate about. He has volunteered a couple of times at the club in the past, but only because his friend told him about the events. His friend is not involved in the organization anymore so he is not sure how to sign up. He sees a flyer in the club bathroom about upcoming volunteer opportunities. Eureka! He makes note of it, and plans to sign up when he gets home. Later that evening Leonard is home, watching his favorite TV show - volunteer sign-ups totally forgotten. He gets an email notification on his phone and notices it is from the curling club.. He remembers the flyer and eagerly opens the email. He follows the link included in the email to the sign-up page. He reads the volunteer role descriptions and finds an open role that fits his schedule and interests. He signs up!"
 ---

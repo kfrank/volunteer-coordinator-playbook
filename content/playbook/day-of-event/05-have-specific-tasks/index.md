@@ -1,8 +1,9 @@
 ---
 title: "Have specific tasks for volunteers"
 section: "Day of Event"
-sequence: "05"
+sectionPage: "05"
 type: child
+page: "28"
 ---
 
 Volunteers like to know what they’re supposed to do. It’s not enough to tell them to “make themselves useful” because not everyone knows what that means to you.

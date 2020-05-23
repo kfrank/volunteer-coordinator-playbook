@@ -1,13 +1,8 @@
 @import "../styles/colors.scss";
 
 .root {
-  top: 0;
-  padding: 3rem 3rem 5rem 0;
-  position: sticky;
-  width: 18rem;
-  flex-shrink: 0;
-  height: 100vh;
-  overflow-y: auto;
+  list-style: none;
+  margin: 1.25rem 0 5rem;
 }
 
 .contain {
@@ -61,15 +56,42 @@
   margin-right: 0.5rem;
 }
 
+ol.childList {
+  counter-reset: section;
+  li {
+    margin-left: 4rem;
+    &::marker {
+      font-weight: 300;
+    }
+  }
+}
+
 .childLink {
-  border-left: 1px solid $gray-light-4;
-  padding: 0.5rem 0 0.5rem 2.5rem;
-  margin-left: 0.25rem;
+  position: relative;
   cursor: pointer;
-  &:hover,
-  &:active,
+  padding: 0.5rem 1rem 0.5rem 0;
+  &::before {
+    content: "";
+    position: absolute;
+    left: -3.75rem;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: $gray-light-4;
+    transition: 0.5s ease all;
+  }
+  &::after {
+    position: absolute;
+    left: -1.5rem;
+    top: 0.5rem;
+    counter-increment: section;
+    content: "" counter(section) ". ";
+  }
   &:global(.active) {
     color: $linkColor;
-    border-left-color: $linkColor;
+    &::before {
+      background: $linkColor;
+      width: 3px;
+    }
   }
 }

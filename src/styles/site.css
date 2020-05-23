@@ -10,6 +10,12 @@ html {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
 h1 {
   font-size: 2em;
   font-weight: 800;

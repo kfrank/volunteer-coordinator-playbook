@@ -1,7 +1,8 @@
 ---
 title: "Audience"
 section: "Intro"
-sequence: "1"
+sectionPage: "1"
+page: "02"
 type: child
 ---
 

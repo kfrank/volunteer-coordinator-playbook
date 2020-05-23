@@ -1,8 +1,9 @@
 ---
 title: "Make it fun!"
 section: "Day of Event"
-sequence: "12"
+sectionPage: "12"
 type: child
+page: "35"
 ---
 
 Above all else, volunteers just want to have fun! Make it a great experience by trying some of these things:

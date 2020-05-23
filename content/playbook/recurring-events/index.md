@@ -1,7 +1,8 @@
 ---
 title: "Annual & Recurring Events"
 section: "Recurring Events"
-sequence: "2"
+sectionPage: "2"
+page: "03"
 type: parent
 ---
 

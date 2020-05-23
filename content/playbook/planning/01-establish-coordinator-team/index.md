@@ -1,8 +1,9 @@
 ---
 title: "Establish Your Coordinator Team"
 section: "Planning"
-sequence: "1"
+sectionPage: "1"
 type: child
+page: "14"
 ---
 
 - 4 months in advance, meet with the volunteer chair to determine the level of complexity for the event
