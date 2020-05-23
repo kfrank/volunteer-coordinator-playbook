@@ -45,8 +45,8 @@
   left: 0;
   top: 0;
   width: 300px;
-  padding-top: 2rem;
-  padding-left: 2rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
   padding-bottom: 4rem;
   background: #fff;
   border-right: 1px solid $borderColor;
@@ -69,9 +69,10 @@ nav {
   display: block;
   position: relative;
   z-index: 20;
-  left: 6px;
+  left: 20px;
   top: -0.25rem;
   transition: 0.3s ease all;
+  transform-origin: center left;
   @media screen and (min-width: 1000px) {
     display: none;
   }
@@ -85,11 +86,13 @@ nav {
 
 .navToggleInput:checked ~ .navToggle {
   left: 250px;
+  transform: scale(-1) translateX(-30px);
 }
 
 .logo {
   margin-bottom: 0.5rem;
   max-height: 22px;
+  max-width: 80%;
 }
 
 .contain {
