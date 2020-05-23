@@ -20,7 +20,7 @@ header {
     margin: 2rem 0 0;
     font-weight: 900;
     font-size: 4.5rem;
-    line-height: 90.6%;
+    line-height: 1;
   }
 
   h2 {
@@ -33,13 +33,46 @@ header {
   }
 }
 
-section {
+.section {
   margin-bottom: 3rem;
   h2 {
     font-family: Inter;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 120%;
+  }
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  p +,
+  ul +,
+  li + {
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 1.5rem;
+    }
+  }
+  h3 {
+    font-size: 1.375rem;
+  }
+  h4 {
+    font-size: 1.125rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  h6 {
+    font-size: 0.875rem;
+  }
+  p + h2 {
+    margin-top: 2rem;
   }
   h2 + p {
     margin-top: 2rem;
@@ -55,6 +88,7 @@ section {
   }
   ol {
     list-style-type: decimal;
+    margin-left: 2rem;
   }
   li {
     margin-left: 1rem;
@@ -72,6 +106,7 @@ section {
     padding: 1rem;
     grid-gap: 1rem;
     margin-bottom: 1rem;
+    margin-top: 2rem;
     thead th {
       color: $accentColor;
       text-transform: uppercase;
@@ -150,7 +185,7 @@ article {
     text-transform: uppercase;
     color: black;
     display: block;
-    border-bottom: 2px solid $accentColor;
+    border-bottom: 2px solid black;
     padding-bottom: 1.5rem;
     margin-bottom: 2.5rem;
   }

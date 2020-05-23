@@ -64,6 +64,7 @@ module.exports = {
         icon: `content/assets/logo.png`,
       },
     },
+    `gatsby-plugin-transition-link`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-google-fonts`,

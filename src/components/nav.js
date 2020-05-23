@@ -48,11 +48,11 @@ const Nav = () => {
 
   return (
     <nav className={styles.root}>
-      {sections.map(({ node }) => {
+      {sections.map(({ node }, index) => {
         const title = node.frontmatter.title || node.fields.slug
         const section = node.frontmatter.section
         return (
-          <li>
+          <li key={index}>
             <Link
               to={node.fields.slug}
               className={styles.parentLink}
@@ -63,21 +63,21 @@ const Nav = () => {
                 <path
                   d="M.5.598L3.902 4 .5 7.402"
                   stroke="currentColor"
-                  stroke-width="1.2"
+                  strokeWidth="1.2"
                   fill="none"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 ></path>
               </svg>
               {title}
             </Link>
             <div>
               <ol className={styles.childList}>
-                {children.map(({ node }) => {
+                {children.map(({ node }, i) => {
                   if (node.frontmatter.section === section) {
                     const childTitle =
                       node.frontmatter.title || node.fields.slug
                     return (
-                      <li>
+                      <li key={i}>
                         <Link
                           to={node.fields.slug}
                           className={styles.childLink}
