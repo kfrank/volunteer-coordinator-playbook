@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import styles from "./nav.module.scss"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const Nav = () => {
   const data = useStaticQuery(graphql`
@@ -53,7 +54,10 @@ const Nav = () => {
         const section = node.frontmatter.section
         return (
           <li key={index}>
-            <Link
+            <AniLink
+              cover
+              direction="up"
+              bg="white"
               to={node.fields.slug}
               className={styles.parentLink}
               activeClassName="active"
@@ -69,7 +73,7 @@ const Nav = () => {
                 ></path>
               </svg>
               {title}
-            </Link>
+            </AniLink>
             <div>
               <ol className={styles.childList}>
                 {children.map(({ node }, i) => {
@@ -78,13 +82,16 @@ const Nav = () => {
                       node.frontmatter.title || node.fields.slug
                     return (
                       <li key={i}>
-                        <Link
+                        <AniLink
+                          cover
+                          direction="up"
+                          bg="white"
                           to={node.fields.slug}
                           className={styles.childLink}
                           activeClassName="active"
                         >
                           {childTitle}
-                        </Link>
+                        </AniLink>
                       </li>
                     )
                   }
