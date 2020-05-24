@@ -10,7 +10,7 @@
 }
 
 .pageNumber {
-  font-size: 6rem;
+  font-size: 4.5rem;
   line-height: 1.1;
   font-weight: 900;
   color: $brandColor;
@@ -19,6 +19,9 @@
   top: -0.25rem;
   left: 0;
   transform: translateX(-90%);
+  @media screen and (min-width: 1000px) {
+    font-size: 6rem;
+  }
 }
 
 header {
@@ -29,17 +32,23 @@ header {
     line-height: 1.2;
     margin: 2rem 0 0;
     font-weight: 900;
-    font-size: 4.5rem;
+    font-size: 3rem;
     line-height: 1;
+    @media screen and (min-width: 1000px) {
+      font-size: 4.5rem;
+    }
   }
 
   h2 {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 0.875rem;
     line-height: 90.6%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin: 2rem 0 -1.5rem;
+    @media screen and (min-width: 1000px) {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -60,8 +69,11 @@ header {
   }
   h2 {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 120%;
+    @media screen and (min-width: 1000px) {
+      font-size: 1.5rem;
+    }
   }
   h3,
   h4,
@@ -206,7 +218,7 @@ article {
   }
   h2 {
     font-weight: 300;
-    font-size: 1.125rem;
+    font-size: 1rem;
     text-align: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -215,28 +227,41 @@ article {
     border-bottom: 2px solid black;
     padding-bottom: 1.5rem;
     margin-bottom: 2.5rem;
+    @media screen and (min-width: 1000px) {
+      font-size: 1.125rem;
+    }
   }
   h3 {
-    font-size: 1rem;
+    font-size: 0.875rem;
     line-height: 90.6%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    @media screen and (min-width: 1000px) {
+      font-size: 1rem;
+    }
   }
   h4 {
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2.25rem;
     line-height: 1.1;
+    @media screen and (min-width: 1000px) {
+      font-size: 3rem;
+    }
   }
   .nextPageNumber {
     position: absolute;
     font-weight: 900;
-    font-size: 6rem;
+    font-size: 4rem;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: rgba($brandColor, 0.2);
-    left: -5rem;
-    top: -2.125rem;
+    left: -2.75rem;
+    top: -0.625rem;
+
+    @media screen and (min-width: 1000px) {
+      font-size: 6rem;
+    }
   }
 }
 
@@ -267,7 +292,11 @@ article {
 
 h4.nextPageSection {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
+
+  @media screen and (min-width: 1000px) {
+    font-size: 4rem;
+  }
 }
 
 .nextPage {
