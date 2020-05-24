@@ -1,6 +1,7 @@
 // Gatsby supports TypeScript natively!
 import React from "react"
-import { PageProps, Link, graphql } from "gatsby"
+import { PageProps, graphql } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import styles from "./index.module.scss"
 import Img from "gatsby-image"
 
@@ -30,7 +31,13 @@ const Index = ({ data, location }: PageProps<Data>) => {
           </div>
           <h1>Volunteer Coordinator Playbook</h1>
           <h2>How to make it a success!</h2>
-          <Link to="/intro" className={styles.button}>
+          <AniLink
+            cover
+            direction="up"
+            to="/intro"
+            bg="white"
+            className={styles.button}
+          >
             Get started{" "}
             <svg
               width="12"
@@ -56,7 +63,7 @@ const Index = ({ data, location }: PageProps<Data>) => {
                 strokeLinejoin="round"
               />
             </svg>
-          </Link>
+          </AniLink>
         </div>
       </div>
     </Layout>

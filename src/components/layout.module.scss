@@ -1,8 +1,12 @@
 @import "../styles/colors.scss";
+@import "../styles/theme.scss";
+
 .root {
+  font-family: $fontDefault;
+  color: $textColor;
   display: grid;
   min-height: 100vh;
-  grid-template-columns: 60px 1fr;
+  grid-template-columns: 50px 1fr;
   @media screen and (min-width: 1000px) {
     grid-template-columns: 300px 1fr;
   }
@@ -75,9 +79,19 @@
   padding-left: 1.5rem;
   padding-bottom: 4rem;
   background: #fff;
-  border-right: 1px solid $borderColor;
+  border-right: 1px solid $navigationBorderColor;
   transform: translateX(-250px);
   transition: transform 250ms ease-in-out;
+  &::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $gray-dark-2;
+  }
+  &::-webkit-scrollbar-track {
+    background: mix($gray-dark-2, white, 50%);
+  }
 
   @media screen and (min-width: 1000px) {
     transform: translateX(0);

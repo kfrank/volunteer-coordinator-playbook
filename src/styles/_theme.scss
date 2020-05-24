@@ -1,0 +1,30 @@
+// Colors
+$brandColor: #3d7cff;
+
+// Text Preferences
+$linkColor: $brandColor;
+$textColor: #122025;
+$calloutBorderColor: $brandColor;
+$buttonBackgroundColor: black;
+$buttonTextColor: white;
+$buttonHoverBackgroundColor: $brandColor;
+$buttonHoverTextColor: white;
+
+// Homepage or Cover Page
+$homeBackgroundColor: $brandColor;
+$homeTextColor: white;
+$homeButtonBackgroundColor: white;
+$homeButtonTextColor: black;
+$homeButtonHoverBackgroundColor: black;
+$homeButtonHoverTextColor: white;
+
+// Layout
+$navigationBorderColor: #dce4eb;
+
+// Fonts
+$fontDefault: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$fontHeading: $fontDefault;
+$fontNavigation: $fontDefault;
+$fontParagraphs: $fontDefault;

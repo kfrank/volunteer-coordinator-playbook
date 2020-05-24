@@ -3,12 +3,7 @@
 .heroImage {
   margin: 0 -2.5rem;
   padding: 0;
-  background: $accentColor;
-  background: linear-gradient(
-    0deg,
-    $accentColor 0%,
-    $secondaryAccentColor 100%
-  );
+  background: $brandColor;
   :global(.gatsby-image-wrapper) {
     max-height: 500px;
   }
@@ -18,7 +13,7 @@
   font-size: 6rem;
   line-height: 1.1;
   font-weight: 900;
-  color: $accentColor;
+  color: $brandColor;
   opacity: 0.2;
   position: absolute;
   top: -0.25rem;
@@ -50,8 +45,20 @@ header {
 
 .section {
   margin-bottom: 3rem;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $fontHeading;
+  }
+  p,
+  ul,
+  ol {
+    font-family: $fontParagraphs;
+  }
   h2 {
-    font-family: Inter;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 120%;
@@ -60,7 +67,6 @@ header {
   h4,
   h5,
   h6 {
-    font-family: Inter;
     font-weight: 700;
     margin-bottom: 1rem;
   }
@@ -106,7 +112,7 @@ header {
     margin-left: 2rem;
   }
   li {
-    margin-left: 1rem;
+    margin-left: 0;
     margin-bottom: 0.5rem;
     background: url("./listArrow.svg") no-repeat left top;
     list-style: none;
@@ -122,14 +128,14 @@ header {
     margin: 2rem 0;
   }
   table {
-    border: 1px solid $accentColor;
+    border: 1px solid $brandColor;
     display: grid;
     padding: 1rem;
     grid-gap: 1rem;
     margin-bottom: 1rem;
     margin-top: 2rem;
     thead th {
-      color: $accentColor;
+      color: $brandColor;
       text-transform: uppercase;
       font-size: 0.875rem;
       line-height: 1.2;
@@ -160,13 +166,13 @@ header {
 }
 
 .callout {
-  border: 1px solid $accentColor;
+  border: 1px solid $brandColor;
   padding: 2rem;
   margin-top: 2rem;
 }
 
 .calloutTitle {
-  color: $accentColor;
+  color: $brandColor;
   text-transform: uppercase;
   font-size: 0.875rem;
   line-height: 1.2;
@@ -228,7 +234,7 @@ article {
     font-size: 6rem;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: rgba($accentColor, 0.2);
+    color: rgba($brandColor, 0.2);
     left: -5rem;
     top: -2.125rem;
   }
@@ -242,9 +248,8 @@ article {
   z-index: 5;
   position: relative;
   span {
-    background: black;
-    color: white;
-    // mix-blend-mode: difference;
+    background: $buttonBackgroundColor;
+    color: $buttonTextColor;
     display: inline-flex;
     align-items: center;
     padding: 0.75rem 1.25rem 0.75rem 1.5rem;
@@ -282,11 +287,18 @@ h4.nextPageSection {
     border-color: $linkColor;
   }
   .nextPageButton span {
-    background: $linkColor;
+    background: $buttonHoverBackgroundColor;
+    color: $buttonHoverTextColor;
     animation-name: bounce;
     animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    svg {
+      line,
+      path {
+        stroke: $buttonHoverTextColor;
+      }
+    }
   }
 }
 

@@ -1,17 +1,4 @@
-// Brand Specific Colors
-$blue: #3d7cff;
-
-// Brand Defaults
-$primary: #c9803a;
-$primary-light: lighten($primary, 20%);
-$primary-dark: darken($primary, 20%);
-
-$secondary: #5a7672;
-$secondary-light: lighten($secondary, 50%);
-$secondary-dark: darken($secondary, 20%);
-
-$dark: #122025;
-$light: #f8f9fa;
+@import "./theme.scss";
 
 // Default Grays
 $gray: #9b9dad; //desaturate(#9a9fb3, 2%)
@@ -30,10 +17,3 @@ $gray-dark-6: #1e1f26; //darken($gray, 52%)
 $gray-dark-7: #131417; //darken($gray, 57%)
 $gray-dark-8: #0a0a0c; //darken($gray, 61%)
 $gray-dark-9: #010101; //darken($gray, 65%)
-
-// User Preferences
-$linkColor: $blue;
-$textColor: $dark;
-$accentColor: $blue;
-$secondaryAccentColor: #1498e2;
-$borderColor: #dce4eb;

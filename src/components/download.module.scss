@@ -1,4 +1,5 @@
 @import "../styles/colors.scss";
+@import "../styles/theme.scss";
 
 .root {
   display: block;
@@ -12,7 +13,7 @@
     left: 0;
     padding: 1rem 0 1rem 1.5rem;
     width: 300px;
-    border-right: 1px solid $borderColor;
+    border-right: 1px solid $navigationBorderColor;
     box-shadow: -10px -20px 20px rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;

@@ -172,7 +172,7 @@ export const pageQuery = graphql`
         calloutText
         coverImage {
           childImageSharp {
-            fluid {
+            fluid(quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -180,7 +180,7 @@ export const pageQuery = graphql`
         type
         image {
           childImageSharp {
-            fixed {
+            fixed(quality: 90) {
               ...GatsbyImageSharpFixed
             }
           }

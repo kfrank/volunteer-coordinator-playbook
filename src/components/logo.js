@@ -8,7 +8,7 @@ const Logo = () => {
     query LogoQuery {
       file(relativePath: { eq: "logo.png" }) {
         childImageSharp {
-          fluid {
+          fluid(quality: 90) {
             ...GatsbyImageSharpFluid
           }
         }
