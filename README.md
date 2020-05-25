@@ -53,7 +53,7 @@ For more information on using Google Fonts with Gatsby, read the package page fo
 
 ## Replacing Images
 
-The Playbook comes with default images created using [Open Peeps ](https://www.openpeeps.com/). You can opt to replace these with your own images or illustrations.
+The Playbook comes with default images created using [Open Peeps](https://www.openpeeps.com/). You can opt to replace these with your own images or illustrations.
 
 ### Logo
 
@@ -76,3 +76,9 @@ These can be added anywhere within the text using markdown. Refer to the [Markdo
 _Note: Must have [Yarn](https://yarnpkg.com/getting-started) & [Gatsby](https://www.gatsbyjs.org/docs/) installed._
 
 Deploying changes is as simple as running `yarn run deploy` from a terminal window. This automatically publishes changes to your forked github repo under a `gh-pages` branch. For more information on how GitHub Pages works, check out [their documentation](https://pages.github.com/).
+
+## Technical Details
+
+This Playbook was built using [Gatsby](https://www.gatsbyjs.org/) with css modules.
+
+## Credits
