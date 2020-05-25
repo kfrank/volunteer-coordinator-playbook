@@ -1,11 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 import styles from "./Download.module.scss"
+import downloadFile from "../../content/assets/volunteer-playbook.pdf"
 
 const Download = () => {
   return (
     <>
-      <Link to="" className={styles.root}>
+      <a href={downloadFile} className={styles.root}>
         <svg
           width="22"
           height="23"
@@ -21,7 +21,7 @@ const Download = () => {
           />
         </svg>
         <span className={styles.label}>Download .pdf</span>
-      </Link>
+      </a>
     </>
   )
 }

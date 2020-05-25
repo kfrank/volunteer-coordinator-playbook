@@ -252,15 +252,17 @@ article {
   .nextPageNumber {
     position: absolute;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 3rem;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: rgba($brandColor, 0.2);
     left: -2.75rem;
-    top: -0.625rem;
+    top: 0.5rem;
 
     @media screen and (min-width: 1000px) {
-      font-size: 6rem;
+      font-size: 4rem;
+      left: -3.5rem;
+      top: 0.125rem;
     }
   }
 }

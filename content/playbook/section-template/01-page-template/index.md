@@ -1,16 +1,10 @@
 ---
-title: "Audience"
-section: "Intro"
+title: "Page Template"
+section: "Section Name"
 sectionPage: "1"
-page: "02"
+page: "45"
 type: child
+published: false
 ---
 
-## Who is this book for?
-
-- Organization / Leadership
-- **Volunteer Coordinators** - start here with timeline view.
-- Individual Volunteers
-  - I want to train others, advance to coordinator
-  - Transition to some other roles
-- New Members (to the organization)
+Write your content here.
