@@ -73,6 +73,6 @@ These can be added anywhere within the text using markdown. Refer to the [Markdo
 
 ## Deploying
 
-Note: Must have [Yarn]https://yarnpkg.com/getting-started) & [Gatsby](https://www.gatsbyjs.org/docs/) installed.
+_Note: Must have [Yarn](https://yarnpkg.com/getting-started) & [Gatsby](https://www.gatsbyjs.org/docs/) installed._
 
 Deploying changes is as simple as running `yarn run deploy` from a terminal window. This automatically publishes changes to your forked github repo under a `gh-pages` branch. For more information on how GitHub Pages works, check out [their documentation](https://pages.github.com/).
