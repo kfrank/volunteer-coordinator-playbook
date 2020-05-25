@@ -1,4 +1,6 @@
-Kickstart your documentation processes by using this template as a guide. Edit what works for you, add pages and practices, and edit the style to fit your brand.
+# Get Started with this Playbook Template
+
+Kickstart your documentation processes by using this template as a guide. This template includes a ton of information on volunteer best practices. Edit what works for you, add pages and practices, and edit the style to fit your brand.
 
 ## Editing & Adding Pages
 
