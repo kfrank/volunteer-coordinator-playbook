@@ -1,99 +1,76 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's blog starter
-</h1>
+Kickstart your documentation processes by using this template as a guide. Edit what works for you, add pages and practices, and edit the style to fit your brand.
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+## Editing & Adding Pages
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+All pages are contained within the `content/playbook` folder. Each section of the Playbook has it's own folder containing a section title page and folders for each of that section's pages. The text content of each page is written in [Markdown](https://www.markdownguide.org/), and saved as `index.md`.
 
-## 🚀 Quick start
+### Editing Pages
 
-1.  **Create a Gatsby site.**
+Each page (`index.md` within each page's folder) contains two parts.
 
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
+The first is called frontmatter, and will look like this:
 
-    ```shell
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
-    ```
+```
+---
+title: "Don’t Assume Everyone Knows You"
+section: "Day of Event"
+sectionPage: "01"
+page: "24"
+published: true
+type: child
+---
+```
 
-1.  **Start developing.**
+Frontmatter is where you will edit the title that appears on the page, the section the page belongs in, the order (both in total pages and pages within the section), and whether the page is published or unpublished (must be either true or false). (Disregard and do not edit the type. This is for determining which pages are a section title page and which below within each section.)
 
-    Navigate into your new site’s directory and start it up.
+The second part is the content of the page. This goes below the frontmatter and can be edited like normal text. To use headings, bolding, italics, lists, and images, refer to the [Markdown Guide's Cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 
-    ```shell
-    cd my-blog-starter/
-    gatsby develop
-    ```
+### Adding New Pages
 
-1.  **Open the source code and start editing!**
+To add a new page, find the `***Page Template***` folder within `content/playbook`. Duplicate this folder into the section you wish to add the page to. Once duplicated, edit the name of the folder (we recommend adding the order number to the beginning). Make sure your folder name does **not** include spaces. From there, you can open the `index.md` file within your new folder and begin editing the page.
 
-    Your site is now running at `http://localhost:8000`!
+### Adding New Sections
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+To add a new section, find the `***Page Section***` folder within `content/playbook`. Duplicate this folder. It should automatically be placed within the `playbook` folder, but double check to make sure. Once duplicated, edit the name of the folder to be your new section (we recommend adding the order number to the beginning). Make sure your folder name does **not** include spaces. From there, you can open the `index.md` file within your new folder. Be sure to update the `sectionPage:` part of the frontmatter to whichever order you want this section to appear (we recommend starting with one more than your total sections. If you're starting from the base template, this would be 8). Then you can begin editing the rest of the page.
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+## Editing Colors & Fonts
 
-## 🧐 What's inside?
+To update the Playbook to match your own brand style, there are a few different things you can do.
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+### Colors
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+The easiest way to update the Playbook with your organization's brand colors is to get the primary color (in hex format). Open `src/styles/_theme.scss` and replace the color after `$brandColor:` at the top of the document (ex: `#3d7cff`).
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+If you wish to fine-tune your color selections, you can also edit any of the remaining colors in the `_theme.scss` document. Make sure you account for appropriate color contrast. You want to make sure people can read your document, after all!
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+### Fonts
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+Fonts are also specificed within the `src/styles/_theme.scss` file, but require extra work. The easiest way to replace fonts is to use Google Fonts. Find the name of the font you'd like to add, and replace `Inter` in the `gatsby-config.js` file (line 73). You can also specify the font weights on the same line. Then, in the `_theme.scss` file, replace `Inter` with the name of your font.
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+For more information on using Google Fonts with Gatsby, read the package page for [gatsby-plugin-google-fonts](https://www.gatsbyjs.org/packages/gatsby-plugin-google-fonts/).
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+## Replacing Images
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+The Playbook comes with default images created using [Open Peeps ](https://www.openpeeps.com/). You can opt to replace these with your own images or illustrations.
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+### Logo
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+To add your own logo, replace the file `logo.png` located with the `content/assets` folder with an image of the same exact name (must be a `.png` file). Your image should be at least 80 pixels tall to preserve image quality.
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+### Cover Image
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+To replace the cover image on the homepage, replace the file `coverImage.png` (also within the `content/assets` folder) with an image of the same exact name (must be a `.png` file). This image should be fairly large (think at least 1500 pixels wide or larger).
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+### Section Hero Images
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+To replace each section's hero image, add an image to that section's folder (ex: `day-of-event`) and then replace the url for `coverImage: "peeps.png"`. (Here, peeps.png is the url). Make sure your url is surrounded in quotations.
 
-## 🎓 Learning Gatsby
+### Inline Images
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+These can be added anywhere within the text using markdown. Refer to the [Markdown Guide's Cheatsheet](https://www.markdownguide.org/cheat-sheet/) for more information.
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+## Deploying
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+Note: Must have [Yarn]https://yarnpkg.com/getting-started) & [Gatsby](https://www.gatsbyjs.org/docs/) installed.
 
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-blog)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+Deploying changes is as simple as running `yarn run deploy` from a terminal window. This automatically publishes changes to your forked github repo under a `gh-pages` branch. For more information on how GitHub Pages works, check out [their documentation](https://pages.github.com/).
