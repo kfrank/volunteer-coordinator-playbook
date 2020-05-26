@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import styles from "./blog-post.module.scss"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,6 +11,90 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const findMatch = data.allPagesJson.edges
+
+  const { next } = pageContext
+  const nextArticle = next && (
+    <AniLink
+      cover
+      direction="up"
+      bg="white"
+      to={next.fields.slug}
+      className={styles.nextPage}
+      trigger={async pages => {
+        const entry = await pages.entry
+
+        const scrollingEl = entry.node.querySelector("#mainContent")
+
+        scrollingEl.scrollTo(0, 0)
+      }}
+    >
+      <h2>Next Up</h2>
+      <div className={styles.nextPageContainer}>
+        {findMatch.map(({ node }, index) => {
+          const children = node.subpages
+          const parent = node.Title
+          return (
+            <>
+              {children.map(({ Title }, i) => {
+                return (
+                  <>
+                    {next.frontmatter.title === Title ? (
+                      <>
+                        <span className={styles.nextPageNumber}>{i + 1}.</span>
+                        <h3>{parent}</h3>
+                        <h4>{next.frontmatter.title}</h4>
+                      </>
+                    ) : (
+                      <></>
+                    )}
+                  </>
+                )
+              })}
+              {next.frontmatter.title === parent ? (
+                <>
+                  <h4 className={styles.nextPageSection}>
+                    {next.frontmatter.title}
+                  </h4>
+                </>
+              ) : (
+                <></>
+              )}
+            </>
+          )
+        })}
+        <div className={styles.nextExcerpt}>{next.excerpt}</div>
+      </div>
+      <div className={styles.nextPageButton}>
+        <span>
+          Keep Reading{" "}
+          <svg
+            width="12"
+            height="15"
+            viewBox="0 0 12 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="6"
+              y1="1"
+              x2="6"
+              y2="12"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
+            <path
+              d="M11 9L6 14L1 9"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+    </AniLink>
+  )
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -76,7 +161,7 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
           <></>
         )}
       </article>
-      {/* {nextArticle} */}
+      {nextArticle}
     </Layout>
   )
 }
@@ -93,12 +178,6 @@ export const pageQuery = graphql`
     allPagesJson {
       edges {
         node {
-          Title
-          subpages {
-            Title
-          }
-        }
-        next {
           Title
           subpages {
             Title
