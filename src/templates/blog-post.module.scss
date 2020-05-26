@@ -256,13 +256,15 @@ article {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: rgba($brandColor, 0.2);
-    left: -2.75rem;
+    left: 0;
     top: 0.5rem;
+    transform: translateX(-90%);
 
     @media screen and (min-width: 1000px) {
       font-size: 4rem;
-      left: -3.5rem;
+      left: 0;
       top: 0.125rem;
+      transform: translateX(-90%);
     }
   }
 }
