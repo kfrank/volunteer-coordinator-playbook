@@ -1,5 +1,5 @@
 ---
-title: "Hold a Team Kickoff Meeting"
+title: "Host A Kick Off Meeting"
 section: "Planning"
 sectionPage: "2"
 type: child

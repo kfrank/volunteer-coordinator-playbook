@@ -1,5 +1,5 @@
 ---
-title: "Setup your Documentation and Shared Processes"
+title: "Shared Documentation And Progress"
 section: "Planning"
 sectionPage: "3"
 type: child

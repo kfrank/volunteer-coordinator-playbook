@@ -1,5 +1,5 @@
 ---
-title: "Planning"
+title: "Planning the Event"
 section: "Planning"
 sectionPage: "4"
 type: parent

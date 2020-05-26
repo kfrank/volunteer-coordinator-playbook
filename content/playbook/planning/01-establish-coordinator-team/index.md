@@ -1,5 +1,5 @@
 ---
-title: "Establish Your Coordinator Team"
+title: "Establish Your Event Leadership Group"
 section: "Planning"
 sectionPage: "1"
 type: child

@@ -1,5 +1,5 @@
 ---
-title: "Have a Clear Start and End Time"
+title: "Have A Clear Start And End Time"
 section: "Day of Event"
 sectionPage: "03"
 type: child

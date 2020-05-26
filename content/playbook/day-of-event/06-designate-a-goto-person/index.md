@@ -1,5 +1,5 @@
 ---
-title: "Designate a “Go-To” person or event leader"
+title: "Designate A “Go-To” Person Or Event Leader"
 section: "Day of Event"
 sectionPage: "06"
 type: child

@@ -1,5 +1,5 @@
 ---
-title: "Open Volunteer Leadership Roles Listing"
+title: "Filling Volunteer Leadership Roles"
 section: "Recurring Events"
 sectionPage: "2"
 type: child

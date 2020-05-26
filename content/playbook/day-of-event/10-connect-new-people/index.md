@@ -1,5 +1,5 @@
 ---
-title: "Connect new people together"
+title: "Connect New People Together"
 section: "Day of Event"
 sectionPage: "10"
 type: child

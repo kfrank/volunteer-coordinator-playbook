@@ -1,5 +1,5 @@
 ---
-title: "Don’t Assume Everyone Knows You"
+title: "Don't Assume Everyone Knows You"
 section: "Day of Event"
 sectionPage: "01"
 type: child

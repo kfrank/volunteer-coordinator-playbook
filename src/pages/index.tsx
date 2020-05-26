@@ -24,7 +24,9 @@ const Index = ({ data, location }: PageProps<Data>) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Playbook" />
       <div className={styles.root}>
-        <Img fluid={data.file.childImageSharp.fluid} />
+        <div className={styles.heroImg}>
+          <Img fluid={data.file.childImageSharp.fluid} />
+        </div>
         <div className={styles.content}>
           <div className={styles.logo}>
             <Logo />
@@ -81,7 +83,7 @@ export const titleQuery = graphql`
     }
     file(relativePath: { eq: "coverImage.png" }) {
       childImageSharp {
-        fluid(quality: 90) {
+        fluid(maxHeight: 450, quality: 90) {
           ...GatsbyImageSharpFluid
         }
       }

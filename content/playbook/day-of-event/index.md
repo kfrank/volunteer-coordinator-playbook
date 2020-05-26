@@ -1,5 +1,5 @@
 ---
-title: "Day of Event"
+title: "Go Time"
 section: "Day of Event"
 sectionPage: "6"
 type: parent

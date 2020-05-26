@@ -1,5 +1,5 @@
 ---
-title: "Make it fun!"
+title: "Make It Fun!"
 section: "Day of Event"
 sectionPage: "12"
 type: child

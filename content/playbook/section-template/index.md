@@ -1,5 +1,5 @@
 ---
-title: "Section Template"
+title: "Templates"
 section: "Section Name"
 sectionPage: "9"
 page: "44"

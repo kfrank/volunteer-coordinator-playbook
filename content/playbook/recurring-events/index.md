@@ -1,5 +1,5 @@
 ---
-title: "Annual & Recurring Events"
+title: "Annual and Recurring Events"
 section: "Recurring Events"
 sectionPage: "2"
 page: "03"

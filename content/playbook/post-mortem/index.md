@@ -1,5 +1,5 @@
 ---
-title: "Post Mortem Time"
+title: "Post-Mortem"
 section: "Wrap Up"
 sectionPage: "7"
 type: parent

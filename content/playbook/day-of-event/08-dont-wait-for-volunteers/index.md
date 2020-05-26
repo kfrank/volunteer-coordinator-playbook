@@ -1,5 +1,5 @@
 ---
-title: "Don’t wait for volunteers to come to you"
+title: "Don't Wait For Volunteers To Come To You"
 section: "Day of Event"
 sectionPage: "08"
 type: child

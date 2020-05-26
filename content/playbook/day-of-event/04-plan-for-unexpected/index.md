@@ -1,5 +1,5 @@
 ---
-title: "Plan for the Unexpected"
+title: "Plan For The Unexpected"
 section: "Day of Event"
 sectionPage: "04"
 type: child

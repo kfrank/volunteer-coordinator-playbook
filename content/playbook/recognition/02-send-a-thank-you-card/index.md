@@ -1,5 +1,5 @@
 ---
-title: "Send a Thank You Card"
+title: "Send A Thank You Note"
 section: "Recognition"
 sectionPage: "2"
 page: "42"

@@ -1,5 +1,5 @@
 ---
-title: "Have specific tasks for volunteers"
+title: "Have Specific Tasks For Volunteers"
 section: "Day of Event"
 sectionPage: "05"
 type: child
