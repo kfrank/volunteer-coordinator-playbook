@@ -2,25 +2,16 @@
 title: "Event Calendar"
 section: "Recurring Events"
 sectionPage: "1"
-type: child
-page: "04"
+calloutTitle: "Case Study"
+calloutText: "Every March the Granite Curling Club board holds a calendar meeting to schedule out the ice time for the upcoming season. As on ice events are finalized they are added to the Google calendar that is available on the website. Board meetings, practice ice, leagues and work parties are also added to the calendar. Keeping a centralized calendar makes it easy for club members to see what is coming up and who to contact if they have questions about an event."
 ---
 
-Key to engaging new volunteer coordinators is publicizing opportunities well in advance, the **recommended time is 6 months before the event will occur**. The Granite Curling Club maintains a Google calendar to schedule events at the club. When events are approved by the board and scheduled the club calendar is updated.
+You got an event coming up Wednesday, baby! Or maybe Thursday. Hey what day is that happening? What day is this? The key to engaging new volunteers is keeping the club calendar upto date and making members aware of opportuni- ties to volunteer well in advance. People are busy, make sure to snag an event leader by putting events on the calendar a minimum of 6 months before the event will occur.
 
 Each event calendar listing should include the following minimum details:
 
-| Recommended Details          |                                                                                                   |
-| ---------------------------- | ------------------------------------------------------------------------------------------------- |
-| **Event Title:**             | Knock the Dust Off Speil                                                                          |
-| **Event Dates:**             | Friday October 23rd 6:30pm - Sunday October 25th 2:00pm                                           |
-| **Event Coordinator(s):**    | Open positions inquire with [volunteers@curlingseattle.org](mailto:volunteers@curlingseattle.org) |
-| **Volunteer Opportunities:** | [Volunteer Sign Up](http://)                                                                      |
-| **Event Details:**           | [Bonspiel Listing](http://)                                                                       |
-
-- Only list club emails and not personal member emails on the public calendar listing
-- Provide coordinator contact information on the volunteer sign up page
-- Update the listing as the event coordinator role(s) are filled
-- For recurring events maintain a list of standard volunteer roles and post the opportunities at the same time the event is added to the calendar
-
-Ideally each event should be used as an opportunity to train new volunteer event coordinators, pair experienced event coordinators with a new event coordinator. Leverage the calendar posting to drive interest to both the event and volunteer sign ups.
+- Event Title: Give events catchy names, to help trigger interest.
+- Event Dates: Clearly state the start and end time.
+- Event Coordinator(s): List out who is leading the event. If the event lead position is open this - is a great spot to advertise you need someone. Update the listing as the event coordinator role(s) are filled.
+- Volunteer Opportunities: Always be recruiting, link out to a Volunteer Sign Up page. For recurring events maintain a list of standard volunteer roles and post the opportunities at the same time the event is added to the calendar.
+- Event Details: Think about the new people and visitors, don’t assume that people know what the event is and create a link to more information on your website.

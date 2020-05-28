@@ -5144,9 +5144,9 @@ gatsby-cli@^2.12.16:
     ink "^2.7.1"
     ink-spinner "^3.0.1"
 
-gatsby-cli@^2.12.34:
-  version "2.12.34"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.12.34.tgz#bd76ffa344a53577c94f259a7720e91c809df99e"
+gatsby-cli@^2.12.36:
+  version "2.12.36"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.12.36.tgz#8246014876f3071cf17a0896731d40b5fb0e1eb1"
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/runtime" "^7.9.6"
@@ -5164,7 +5164,7 @@ gatsby-cli@^2.12.34:
     fs-exists-cached "^1.0.0"
     fs-extra "^8.1.0"
     gatsby-core-utils "^1.3.3"
-    gatsby-recipes "^0.1.28"
+    gatsby-recipes "^0.1.30"
     gatsby-telemetry "^1.3.9"
     hosted-git-info "^3.0.4"
     is-valid-path "^0.1.1"
@@ -5440,9 +5440,9 @@ gatsby-recipes@^0.1.15:
     ws "^7.2.5"
     xstate "^4.9.1"
 
-gatsby-recipes@^0.1.28:
-  version "0.1.28"
-  resolved "https://registry.yarnpkg.com/gatsby-recipes/-/gatsby-recipes-0.1.28.tgz#5e3a16c929d6601be5af929365062b5e5a9a7192"
+gatsby-recipes@^0.1.30:
+  version "0.1.30"
+  resolved "https://registry.yarnpkg.com/gatsby-recipes/-/gatsby-recipes-0.1.30.tgz#71cdeb4c1a7396de74ed8f351971e04267507e55"
   dependencies:
     "@babel/core" "^7.9.6"
     "@babel/generator" "^7.9.6"
@@ -5472,7 +5472,7 @@ gatsby-recipes@^0.1.28:
     graphql-type-json "^0.3.1"
     hicat "^0.7.0"
     html-tag-names "^1.1.5"
-    import-jsx "^4.0.0"
+    ink "^2.7.1"
     ink-box "^1.0.0"
     ink-link "^1.1.0"
     ink-select-input "^3.1.2"
@@ -5484,6 +5484,7 @@ gatsby-recipes@^0.1.28:
     jest-diff "^25.5.0"
     lodash "^4.17.15"
     mkdirp "^0.5.1"
+    node-fetch "^2.6.0"
     pkg-dir "^4.2.0"
     prettier "^2.0.5"
     react-reconciler "^0.25.1"

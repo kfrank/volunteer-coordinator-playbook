@@ -2,15 +2,13 @@
 title: "Other Ways To Give Recognition"
 section: "Recognition"
 sectionPage: "3"
-page: "43"
-type: child
 ---
 
-## Who is this book for?
+Publicizing volunteer recognition around the club is a great way to spread awareness amongst the members for volunteer opportunities. In addition to sending Thank you notes while most impactful are not the only way to recognize volunteers around the club.
 
-- Organization / Leadership
-- **Volunteer Coordinators** - start here with timeline view.
-- Individual Volunteers
-  - I want to train others, advance to coordinator
-  - Transition to some other roles
-- New Members (to the organization)
+**Here are some other ways you can spread awareness to the club members about the efforts:**
+
+- Add a thank you list to the league announcements.
+- Add the volunteers names to the volunteer board.
+- Feature a volunteer thank you list on the club website.
+- Write up a thank you article to be included in the next club email.

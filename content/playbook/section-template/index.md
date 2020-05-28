@@ -2,10 +2,8 @@
 title: "Templates"
 section: "Section Name"
 sectionPage: "9"
-page: "44"
-type: parent
 coverImage: "peeps.png"
 published: false
 ---
 
-Write your content here.
+Use this template as a guide to create new section cover pages. You can then duplicate, add, and edit pages.

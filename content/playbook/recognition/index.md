@@ -2,11 +2,9 @@
 title: "Recognition"
 section: "Recognition"
 sectionPage: "8"
-page: "40"
-type: parent
 coverImage: "peeps.png"
 ---
 
-## How to use this playbook & get the most out of your volunteers.
+## Make sure your volunteers come back!
 
-So you say you wanna be a volunteer coordinator, now what? Volunteering is a delicate mixture between work and play. As an event leader, you will be leading individuals who have freely given their time to benefit the club and advance the spirit of curling. Having fun and socializing while doing good is the key motivator for people to volunteer. This playbook will help set you and your events up for success.
+At Granite Curling Club where everyone is a volunteer it is easy to lose track of the need to recognize and thank people for the work that they do. Spending the time to acknowledge the time volunteers spend, their achievements and overall impact to the club is important. People want to know that they are making a difference in the community. As a volunteer event leader it is important that you dig deep and make the extra effort to recognize those that have come to help.

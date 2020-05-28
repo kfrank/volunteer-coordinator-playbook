@@ -10,91 +10,18 @@ import Img from "gatsby-image"
 const BlogPostTemplate = ({ data, location, pageContext }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
-  const findMatch = data.allPagesJson.edges
+  const matches = data.allPagesJson.edges
+  const postTitle = post.frontmatter.title
 
-  const { next } = pageContext
-  const nextArticle = next && (
-    <AniLink
-      cover
-      direction="up"
-      bg="white"
-      to={next.fields.slug}
-      className={styles.nextPage}
-      trigger={async pages => {
-        const entry = await pages.entry
+  const sections = data.allPagesJson.edges
+  const findMatch = data.allMarkdownRemark.edges
 
-        const scrollingEl = entry.node.querySelector("#mainContent")
+  // Next Variables
 
-        scrollingEl.scrollTo(0, 0)
-      }}
-    >
-      <h2>Next Up</h2>
-      <div className={styles.nextPageContainer}>
-        {findMatch.map(({ node }, index) => {
-          const children = node.subpages
-          const parent = node.Title
-          return (
-            <>
-              {children.map(({ Title }, i) => {
-                return (
-                  <>
-                    {next.frontmatter.title === Title ? (
-                      <>
-                        <span className={styles.nextPageNumber}>{i + 1}.</span>
-                        <h3>{parent}</h3>
-                        <h4>{next.frontmatter.title}</h4>
-                      </>
-                    ) : (
-                      <></>
-                    )}
-                  </>
-                )
-              })}
-              {next.frontmatter.title === parent ? (
-                <>
-                  <h4 className={styles.nextPageSection}>
-                    {next.frontmatter.title}
-                  </h4>
-                </>
-              ) : (
-                <></>
-              )}
-            </>
-          )
-        })}
-        <div className={styles.nextExcerpt}>{next.excerpt}</div>
-      </div>
-      <div className={styles.nextPageButton}>
-        <span>
-          Keep Reading{" "}
-          <svg
-            width="12"
-            height="15"
-            viewBox="0 0 12 15"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <line
-              x1="6"
-              y1="1"
-              x2="6"
-              y2="12"
-              stroke="white"
-              strokeWidth="2"
-              strokeLinecap="round"
-            />
-            <path
-              d="M11 9L6 14L1 9"
-              stroke="white"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </span>
-      </div>
-    </AniLink>
-  )
+  const nextPageNumber = "1"
+  const nextParent = ""
+  const nextPageName = ""
+  const nextExcerpt = ""
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -108,9 +35,9 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
       )}
       <article>
         <header>
-          {findMatch.map(({ node }, index) => {
+          {matches.map(({ node }, index) => {
             const children = node.subpages
-            const parent = node.Title
+            const parent = node.title
             return (
               <>
                 {children.map(({ Title }, i) => {
@@ -130,7 +57,7 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
               </>
             )
           })}
-          <h1>{post.frontmatter.title}</h1>
+          <h1>{postTitle}</h1>
         </header>
         <section
           className={styles.section}
@@ -149,19 +76,207 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
         ) : (
           <></>
         )}
-
-        {post.frontmatter.image ? (
-          <div className={styles.bottomImageContainer}>
-            <Img
-              fixed={post.frontmatter.image.childImageSharp.fixed}
-              className={styles.bottomImage}
-            />
-          </div>
-        ) : (
-          <></>
-        )}
       </article>
-      {nextArticle}
+
+      {sections.map(({ node, next }, index) => {
+        const parent = node.title
+        const children = node.subpages
+        const nextParent = next && sections[index].next.title
+        const nextParentSlug = next && sections[index].next.slug
+        const nextSlug = "/"
+
+        return (
+          <>
+            {node.subpages.length > 0 ? (
+              <>
+                {postTitle === parent ? (
+                  <>
+                    {/* Parent to first child */}
+                    <AniLink
+                      cover
+                      direction="up"
+                      bg="white"
+                      to={children[0].slug}
+                      className={styles.nextPage}
+                      trigger={async pages => {
+                        const entry = await pages.entry
+                        const scrollingEl = entry.node.querySelector(
+                          "#mainContent"
+                        )
+                        scrollingEl.scrollTo(0, 0)
+                      }}
+                    >
+                      <h2>Next Up</h2>
+                      <div className={styles.nextPageContainer}>
+                        <span className={styles.nextPageNumber}>1.</span>
+                        <h3>{parent}</h3>
+                        <h4>{children[0].title}</h4>
+                      </div>{" "}
+                      <div className={styles.nextPageButton}>
+                        <span>
+                          Keep Reading{" "}
+                          <svg
+                            width="12"
+                            height="15"
+                            viewBox="0 0 12 15"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <line
+                              x1="6"
+                              y1="1"
+                              x2="6"
+                              y2="12"
+                              stroke="white"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                            />
+                            <path
+                              d="M11 9L6 14L1 9"
+                              stroke="white"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </AniLink>
+                  </>
+                ) : (
+                  <>
+                    {children.map(({ title }, i) => {
+                      return (
+                        <>
+                          {/* Child */}
+                          {postTitle === title ? (
+                            <>
+                              {i < children.length - 1 ? (
+                                <>
+                                  <AniLink
+                                    cover
+                                    direction="up"
+                                    bg="white"
+                                    to={children[i + 1].slug}
+                                    className={styles.nextPage}
+                                    trigger={async pages => {
+                                      const entry = await pages.entry
+                                      const scrollingEl = entry.node.querySelector(
+                                        "#mainContent"
+                                      )
+                                      scrollingEl.scrollTo(0, 0)
+                                    }}
+                                  >
+                                    <h2>Next Up</h2>
+                                    <div className={styles.nextPageContainer}>
+                                      <span className={styles.nextPageNumber}>
+                                        {i + 2}.
+                                      </span>
+                                      <h3>{parent}</h3>
+                                      <h4>{children[i + 1].title}</h4>
+                                    </div>{" "}
+                                    <div className={styles.nextPageButton}>
+                                      <span>
+                                        Keep Reading{" "}
+                                        <svg
+                                          width="12"
+                                          height="15"
+                                          viewBox="0 0 12 15"
+                                          fill="none"
+                                          xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                          <line
+                                            x1="6"
+                                            y1="1"
+                                            x2="6"
+                                            y2="12"
+                                            stroke="white"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                          />
+                                          <path
+                                            d="M11 9L6 14L1 9"
+                                            stroke="white"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                          />
+                                        </svg>
+                                      </span>
+                                    </div>
+                                  </AniLink>
+                                </>
+                              ) : (
+                                <>
+                                  {/* Last child to Parent */}
+                                  <AniLink
+                                    cover
+                                    direction="up"
+                                    bg="white"
+                                    to={nextParentSlug}
+                                    className={styles.nextPage}
+                                    trigger={async pages => {
+                                      const entry = await pages.entry
+                                      const scrollingEl = entry.node.querySelector(
+                                        "#mainContent"
+                                      )
+                                      scrollingEl.scrollTo(0, 0)
+                                    }}
+                                  >
+                                    <h2>Next Up</h2>
+                                    <div className={styles.nextPageContainer}>
+                                      <h4 className={styles.nextPageSection}>
+                                        {nextParent}
+                                      </h4>
+                                    </div>{" "}
+                                    <div className={styles.nextPageButton}>
+                                      <span>
+                                        Keep Reading{" "}
+                                        <svg
+                                          width="12"
+                                          height="15"
+                                          viewBox="0 0 12 15"
+                                          fill="none"
+                                          xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                          <line
+                                            x1="6"
+                                            y1="1"
+                                            x2="6"
+                                            y2="12"
+                                            stroke="white"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                          />
+                                          <path
+                                            d="M11 9L6 14L1 9"
+                                            stroke="white"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                          />
+                                        </svg>
+                                      </span>
+                                    </div>
+                                  </AniLink>
+                                </>
+                              )}
+                            </>
+                          ) : (
+                            <></>
+                          )}
+                        </>
+                      )
+                    })}
+                  </>
+                )}
+              </>
+            ) : (
+              <></>
+            )}
+          </>
+        )
+      })}
     </Layout>
   )
 }
@@ -175,18 +290,47 @@ export const pageQuery = graphql`
         title
       }
     }
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            title
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
     allPagesJson {
       edges {
         node {
-          Title
+          title
+          slug
+          excerpt
           subpages {
-            Title
+            title
+            slug
+            excerpt
+          }
+        }
+        next {
+          title
+          slug
+          excerpt
+          subpages {
+            title
+            slug
+            excerpt
           }
         }
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         calloutTitle
@@ -195,13 +339,6 @@ export const pageQuery = graphql`
           childImageSharp {
             fluid(quality: 90) {
               ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        image {
-          childImageSharp {
-            fixed(quality: 90) {
-              ...GatsbyImageSharpFixed
             }
           }
         }

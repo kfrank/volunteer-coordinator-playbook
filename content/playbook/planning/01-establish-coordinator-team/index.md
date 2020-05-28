@@ -2,27 +2,22 @@
 title: "Establish Your Event Leadership Group"
 section: "Planning"
 sectionPage: "1"
-type: child
-page: "14"
 ---
 
-- 4 months in advance, meet with the volunteer chair to determine the level of complexity for the event
-- Work with the volunteer chair to recruit a novice co-coordinator who you can train to lead similar events in the future
-- For each area of the club that will be used, recruit a leader for the volunteers in that area.
-- Ideally have each of these roles identified 3 months before the event is scheduled
+Assemble your squad to help pull off your event as soon as you can. A good leadership group means you can divide up the work and trust each other to pull off a great event.
 
-For example consider the leads for the Knock the Dust Off Bonspiel:
+- Determine the level of complexity for the event.
+- Figure out how many leads you will need.
+- Recruit your leads, get the word out that you are looking for help.
+- Consider recruiting a new leader as your backup to train to lead similar events in the future.
+- Ideally fill your lead roles 3 months before the event.
+- It is possible but not ideal for one person to have multiple lead roles for an event.
 
-| Example Roles                                                                                    |
-| ------------------------------------------------------------------------------------------------ |
-| **Volunteer Recruitment Lead:** recruits additional volunteers to help other leads run the event |
-|                                                                                                  |
-| **Tournament Lead:** Set the draw schedule and update standings                                  |
-|                                                                                                  |
-| **Kitchen Lead:** Set the menu and kitchen schedule                                              |
-|                                                                                                  |
-| **Entertainment Lead:** Plan and run the off ice entertainment                                   |
-|                                                                                                  |
-| **Awards and Prizes Lead:** Trophies, merchandise, raffle items and swag                         |
-|                                                                                                  |
-| **Tear Down Lead:** Put the club back in order                                                   |
+| Typical Leadership Roles                                                        |
+| ------------------------------------------------------------------------------- |
+| **Decoration Lead:** Works with the theme to decorate the warm side of the club |
+| **Tournament Lead:** Set the draw schedule and update standings                 |
+| **Kitchen Lead:** Set the menu and kitchen schedule                             |
+| **Entertainment Lead:** Plan and run the off ice entertainment                  |
+| **Awards and Prizes Lead:** Trophies, merchandise, raffle items and swag        |
+| **Tear Down Lead:** Put the club back in order                                  |

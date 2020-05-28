@@ -2,13 +2,13 @@
 title: "New Event Origination"
 section: "New Idea Origination"
 sectionPage: "3"
-type: parent
-page: "07"
 coverImage: "peeps.png"
 ---
 
-To allow for growth and engagement it is critical to allow volunteer coordinators to propose new volunteer events for your organization. Ensure your organization makes it easy for members to see what the process of getting an event approved is.
+## How do you go from idea to approval?
 
-## Getting your idea approved
+To allow for growth and engagement it is critical to allow volunteer leaders to propose new volunteer events for your organization. Make it easy for members to see what the process to get an event approved is. Create a formalized process but take care to not make it too formal, you want to encourage and welcome ideas from the people who have the passion to get the work done.
 
-You have a great idea for the Granite Curling Club and you are willing to coordinate the work to make it happen here are the steps you need to take to get approval.
+### Getting your idea approved
+
+You have a great idea for an event at the Granite Curling Club and you are willing to coordinate the work to make it happen here are the steps you need to take to get approval. If your idea requires ice time, do note that the ice calendar is set in March for the season and plan to present your idea for the following year.

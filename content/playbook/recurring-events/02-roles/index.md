@@ -2,54 +2,17 @@
 title: "Filling Volunteer Leadership Roles"
 section: "Recurring Events"
 sectionPage: "2"
-type: child
-page: "05"
+calloutTitle: "Case Study"
+calloutText: "Jill volunteers as a league manager at the Granite Curling Club, she has been managing her league for several years and recently took on Roger, a newer club member, as her back up league manager. When it comes time to form new league teams for the 2nd half of the season Jill invites her backup Roger over for dinner to be a part of the process when she is forming teams. Jill is able to lean on Rogers’ knowledge of newer club members as she makes the teams and Roger learns what it takes to build balanced teams for a managers choice league. Jill and Roger schedule themselves to be on different draws so that they can make sure there is always a leader around to make announcements and
+answer questions."
 ---
 
-Key to engaging new volunteers is making detailed information about volunteer roles available.
+Always be on the lookout for your next great volunteer leader. One way to maximize the volunteer leaders in your organization is to use each event as an opportunity to train new volunteer event coordinators. When you can pair an experienced leader with a leader in training as their backup to learn the ropes of putting on the event.
 
-- For bonspiels schedule event kick-off for a minimum of 3 months in advance
-- Estimate the time commitment based on previous volunteer experiences
-- Monthly events would have a season kick off and may have quarterly kickoffs to engage new volunteers
-- List all volunteer leadership roles for the event
-- As roles are filled, update the page
+**People can’t sign up for what they don’t know about:**
 
----
-
-Each recurring event should maintain a volunteer information page with the following details:
-
-**Event Title:**
-2020 Knock the Dust Off Spiel
-
-**Event Dates:**
-Friday October 23rd 6:30pm - Sunday October 25th 2:00pm
-
-**Event Coordinator(s):**
-Jessica Schultz jessicajuhl@yahoo.com
-
-**Event Description:**
-3 day curling tournament for Granite Curling Club members, club volunteers will run all aspects of the tournament including prizes, entertainment, food, and bar service.
-
-**Volunteer Leadership Roles:**
-
-_Title:_ Euchre Tournament Coordinator
-
-_Description:_
-Advertise and manage a euchre tournament between bonspiel competitors during their time off the ice. Procure awards for the tournament. Provide game instructions and rules.
-
-_Time Commitment:_
-10 hours of pre-event planning & 10 hours during the event
-
-_Title:_ Kitchen Coordinator
-
-_Description:_
-Manage kitchen menu to the budget provided by the bonspiel event coordinator. Ensure there is a lead cook for every meal. Provide food prep instructions. Shop for food supplies. Establish a food schedule. Establish a kitchen volunteer schedule. Track expenses and submit receipts for reimbursement.
-
-_Time Commitment:_
-8 hours of menu planning, 8 hours of shopping, 4-20 hours of cooking, 4 hours of cleaning & 4 hours of expense tracking
-
-**Volunteer Leadership Sign Up:**
-[Link to sign up](http://)
-
-**Event Kick-Off meeting:**
-July 25th
+- Let your leaders know that opportunities are on the calendar.
+- Get to know your club members and the types of roles they enjoy doing.
+- Provide detailed information about volunteer roles available.
+- For complicated events, schedule a committee kick-off meeting for a minimum of 3 months in advance.
+- Encourage volunteers to have a backup that they are training to lead in the future.

@@ -2,15 +2,6 @@
 title: "Volunteer Culture"
 section: "Intro"
 sectionPage: "1"
-page: "03"
-type: child
 ---
 
-## Who is this book for?
-
-- Organization / Leadership
-- **Volunteer Coordinators** - start here with timeline view.
-- Individual Volunteers
-  - I want to train others, advance to coordinator
-  - Transition to some other roles
-- New Members (to the organization)
+Granite Curling Club is a volunteer run organization. The success of GCC is directly tied to the membership chipping in to help when and where they can. Volunteering is a great way to meet club members and foster friendships off of the ice. Every area of the club has opportunities to volunteer from weeding the planter beds to instructing competitive curling there is a role for you.

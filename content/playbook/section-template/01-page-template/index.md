@@ -2,9 +2,11 @@
 title: "Page Template"
 section: "Section Name"
 sectionPage: "1"
-page: "45"
-type: child
 published: false
 ---
 
-Write your content here.
+**Use this Page Template to enter your own information you want to share.**
+
+- Keep it short and to the point.
+- List key points or best practices.
+- Provide case study examples to help people empathize and understand.

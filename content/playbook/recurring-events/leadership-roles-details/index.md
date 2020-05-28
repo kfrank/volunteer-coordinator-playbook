@@ -2,12 +2,25 @@
 title: "Provide Details for Volunteer Leadership Roles"
 section: "Recurring Events"
 sectionPage: "3"
-type: child
-page: "06"
+calloutTitle: "Case Study"
 ---
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+The unknown is scary, imagine being asked to sign on for an unknown amount of work to be done over an unspecified timeline. Providing concrete details for the leadership roles you are looking to fill makes it easier for people to commit and leads to more confident volunteers.
 
-## What’s a Volunteer Coordinator?
+**Follow these best practices for posting volunteer roles:**
 
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+- Give each role a title.
+- Describe the type of work they will be responsible for.
+- Estimate the time commitment based.
+- Schedule a kickoff meeting for the leadership team to socialize and plan.
+- List all volunteer leadership roles for the event.
+
+| Example Volunteer Roles                                                                                                                                                                                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Bar Towel Washing Crew Lead**                                                                                                                                                                                                                                                                                           |
+| **Description:** Help keep our bar and kitchen well stocked with fresh bar towels. Recruit and manage a team of members willing to take home dirty bar towels to wash, dry, fold and return them. Providing our own linen service at the club is one of the ways that we keep the cost of membership down.                |
+| **Time Commitment:** 1-2 hours per week depending on the number of volunteers. Towels need to be washed weekly, usually it is one load of laundry.                                                                                                                                                                        |
+| ---                                                                                                                                                                                                                                                                                                                       |
+| **Bonspiel Kitchen Coordinator**                                                                                                                                                                                                                                                                                          |
+| **Description:** Manage kitchen menu to the budget provided by the bonspiel event coordinator. Ensure there is a lead cook for every meal. Provide food prep instructions. Shop for food supplies. Establish a food schedule. Establish a kitchen volunteer schedule. Track expenses & submit receipts for reimbursement. |
+| **Time Commitment:** 8 hours of menu planning, 8 hours of shopping, 4-20 hours of cooking, 4 hours of cleaning & 4 hours of expense tracking.                                                                                                                                                                             |

@@ -2,15 +2,13 @@
 title: "Audience"
 section: "Intro"
 sectionPage: "1"
-page: "02"
-type: child
 ---
 
-## Who is this book for?
+This Volunteer Coordinator Playbook is written for individuals who currently lead events at Granite Curling Club.
 
-- Organization / Leadership
-- **Volunteer Coordinators** - start here with timeline view.
+Others who might find this book useful:
+
+- Board Members
+- Event Leaders
 - Individual Volunteers
-  - I want to train others, advance to coordinator
-  - Transition to some other roles
-- New Members (to the organization)
+- New Members
