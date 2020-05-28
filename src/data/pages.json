@@ -2,241 +2,204 @@
   {
     "title": "Introduction",
     "slug": "/intro/",
-    "excerpt": "",
+
     "subpages": [
       {
         "title": "Audience",
-        "slug": "/intro/01-audience/",
-        "excerpt": ""
+        "slug": "/intro/01-audience/"
       },
       {
         "title": "Guiding Principles",
-        "slug": "/intro/principles/",
-        "excerpt": ""
+        "slug": "/intro/principles/"
       },
       {
         "title": "Volunteer Culture",
-        "slug": "/intro/volunteer-culture/",
-        "excerpt": ""
+        "slug": "/intro/volunteer-culture/"
       }
     ]
   },
   {
     "title": "Annual and Recurring Events",
     "slug": "/recurring-events/",
-    "excerpt": "How to make recurring events more transparent In established organizations such as the Granite Curling Club there are both annual and monthly recurring events. Oftentimes this information is tribal or…",
+
     "subpages": [
       {
         "title": "Event Calendar",
-        "slug": "/recurring-events/01-event-calendar/",
-        "excerpt": ""
+        "slug": "/recurring-events/01-event-calendar/"
       },
       {
         "title": "Filling Volunteer Leadership Roles",
-        "slug": "/recurring-events/02-roles/",
-        "excerpt": ""
+        "slug": "/recurring-events/02-roles/"
       },
       {
         "title": "Provide Details for Volunteer Leadership Roles",
-        "slug": "/recurring-events/leadership-roles-details",
-        "excerpt": ""
+        "slug": "/recurring-events/leadership-roles-details"
       }
     ]
   },
   {
     "title": "New Event Origination",
     "slug": "/new-idea-origination/",
-    "excerpt": "",
+
     "subpages": [
       {
         "title": "Get The Idea Out of Your Head",
-        "slug": "/new-idea-origination/get-it-out/",
-        "excerpt": ""
+        "slug": "/new-idea-origination/get-it-out/"
       },
       {
         "title": "Share Your Idea",
-        "slug": "/new-idea-origination/share-your-idea/",
-        "excerpt": ""
+        "slug": "/new-idea-origination/share-your-idea/"
       },
       {
         "title": "Refine And Build Out Your Idea",
-        "slug": "/new-idea-origination/refine-and-build-out/",
-        "excerpt": ""
+        "slug": "/new-idea-origination/refine-and-build-out/"
       },
       {
         "title": "Get On The Agenda",
-        "slug": "/new-idea-origination/get-on-the-agenda/",
-        "excerpt": ""
+        "slug": "/new-idea-origination/get-on-the-agenda/"
       },
       {
         "title": "Present Your Idea",
-        "slug": "/new-idea-origination/present-your-idea/",
-        "excerpt": ""
+        "slug": "/new-idea-origination/present-your-idea/"
       }
     ]
   },
   {
     "title": "Planning the Event",
     "slug": "/planning/",
-    "excerpt": "",
+
     "subpages": [
       {
         "title": "Establish Your Event Leadership Group",
-        "slug": "/planning/01-establish-coordinator-team/",
-        "excerpt": ""
+        "slug": "/planning/01-establish-coordinator-team/"
       },
       {
         "title": "Host A Kick Off Meeting",
-        "slug": "/planning/02-kickoff-meeting/",
-        "excerpt": ""
+        "slug": "/planning/02-kickoff-meeting/"
       },
       {
         "title": "Shared Documentation And Progress",
-        "slug": "/planning/03-setup-documentation/",
-        "excerpt": ""
+        "slug": "/planning/03-setup-documentation/"
       }
     ]
   },
   {
     "title": "Recruitment",
     "slug": "/recruitment/",
-    "excerpt": "",
+
     "subpages": [
       {
         "title": "Review Volunteer Roles",
-        "slug": "/recruitment/01-review-volunteer-roles/",
-        "excerpt": ""
+        "slug": "/recruitment/01-review-volunteer-roles/"
       },
       {
         "title": "Prepare Your Sign-up Sheet",
-        "slug": "/recruitment/02-prepare-signup/",
-        "excerpt": ""
+        "slug": "/recruitment/02-prepare-signup/"
       },
       {
         "title": "Communicate Open Roles",
-        "slug": "/recruitment/03-communicate-roles/",
-        "excerpt": ""
+        "slug": "/recruitment/03-communicate-roles/"
       },
       {
         "title": "Before The Event: Orient Your Volunteers",
-        "slug": "/recruitment/04-orient-volunteers/",
-        "excerpt": ""
+        "slug": "/recruitment/04-orient-volunteers/"
       }
     ]
   },
   {
     "title": "Go Time",
     "slug": "/day-of-event/",
-    "excerpt": "",
+
     "subpages": [
       {
         "title": "Don't Assume Everyone Knows You",
-        "slug": "/day-of-event/01-dont-assume-everyone-knows-you/",
-        "excerpt": ""
+        "slug": "/day-of-event/01-dont-assume-everyone-knows-you/"
       },
       {
         "title": "Keep Your Volunteers Happy",
-        "slug": "/day-of-event/02-keep-your-volunteers-happy/",
-        "excerpt": ""
+        "slug": "/day-of-event/02-keep-your-volunteers-happy/"
       },
       {
         "title": "Have A Clear Start And End Time",
-        "slug": "/day-of-event/03-clear-start-and-end/",
-        "excerpt": ""
+        "slug": "/day-of-event/03-clear-start-and-end/"
       },
       {
         "title": "Plan For The Unexpected",
-        "slug": "/day-of-event/04-plan-for-unexpected/",
-        "excerpt": ""
+        "slug": "/day-of-event/04-plan-for-unexpected/"
       },
       {
         "title": "Have Specific Tasks For Volunteers",
-        "slug": "/day-of-event/05-have-specific-tasks/",
-        "excerpt": ""
+        "slug": "/day-of-event/05-have-specific-tasks/"
       },
       {
         "title": "Designate A “Go-To” Person Or Event Leader",
-        "slug": "/day-of-event/06-designate-a-goto-person/",
-        "excerpt": ""
+        "slug": "/day-of-event/06-designate-a-goto-person/"
       },
       {
         "title": "Empower Others",
-        "slug": "/day-of-event/07-empower-others/",
-        "excerpt": ""
+        "slug": "/day-of-event/07-empower-others/"
       },
       {
         "title": "Don't Wait For Volunteers To Come To You",
-        "slug": "/day-of-event/08-dont-wait-for-volunteers/",
-        "excerpt": ""
+        "slug": "/day-of-event/08-dont-wait-for-volunteers/"
       },
       {
         "title": "Thank Your Volunteers For Coming",
-        "slug": "/day-of-event/thank-your-volunteers/",
-        "excerpt": ""
+        "slug": "/day-of-event/thank-your-volunteers/"
       },
       {
         "title": "Let Volunteers You Don't Need Off The Hook",
-        "slug": "/day-of-event/let-volunteers-you-dont-need-leave/",
-        "excerpt": ""
+        "slug": "/day-of-event/let-volunteers-you-dont-need-leave/"
       },
       {
         "title": "Connect New People Together",
-        "slug": "/day-of-event/10-connect-new-people/",
-        "excerpt": ""
+        "slug": "/day-of-event/10-connect-new-people/"
       },
       {
         "title": "Make It Fun!",
-        "slug": "/day-of-event/12-make-it-fun/",
-        "excerpt": ""
+        "slug": "/day-of-event/12-make-it-fun/"
       }
     ]
   },
   {
     "title": "Post-Mortem",
     "slug": "/post-mortem/",
-    "excerpt": "",
+
     "subpages": [
       {
         "title": "Pick A Time And Place",
-        "slug": "/post-mortem/pick-a-time-and-place/",
-        "excerpt": ""
+        "slug": "/post-mortem/pick-a-time-and-place/"
       },
       {
         "title": "Start With The Good",
-        "slug": "/post-mortem/start-with-the-good/",
-        "excerpt": ""
+        "slug": "/post-mortem/start-with-the-good/"
       },
       {
         "title": "Learn From Mistakes",
-        "slug": "/post-mortem/learn-from-mistakes/",
-        "excerpt": ""
+        "slug": "/post-mortem/learn-from-mistakes/"
       },
       {
         "title": "Share What You Learned",
-        "slug": "/post-mortem/share-what-you-learned/",
-        "excerpt": ""
+        "slug": "/post-mortem/share-what-you-learned/"
       }
     ]
   },
   {
     "title": "Recognition",
     "slug": "/recognition/",
-    "excerpt": "",
+
     "subpages": [
       {
         "title": "Track Participation",
-        "slug": "/recognition/01-track-participation/",
-        "excerpt": ""
+        "slug": "/recognition/01-track-participation/"
       },
       {
         "title": "Send A Thank You Note",
-        "slug": "/recognition/02-send-a-thank-you-card/",
-        "excerpt": ""
+        "slug": "/recognition/02-send-a-thank-you-card/"
       },
       {
         "title": "Other Ways To Give Recognition",
-        "slug": "/recognition/03-other-ways/",
-        "excerpt": ""
+        "slug": "/recognition/03-other-ways/"
       }
     ]
   },

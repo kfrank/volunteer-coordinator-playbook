@@ -18,11 +18,6 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
 
   // Next Variables
 
-  const nextPageNumber = "1"
-  const nextParent = ""
-  const nextPageName = ""
-  const nextExcerpt = ""
-
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title={`Volunteer Playbook | ${post.frontmatter.title}`} />
@@ -83,7 +78,6 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
         const children = node.subpages
         const nextParent = next && sections[index].next.title
         const nextParentSlug = next && sections[index].next.slug
-        const nextSlug = "/"
 
         return (
           <>
@@ -111,6 +105,20 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                         <span className={styles.nextPageNumber}>1.</span>
                         <h3>{parent}</h3>
                         <h4>{children[0].title}</h4>
+                        <div className={styles.nextExcerpt}>
+                          {findMatch.map(({ node, next }, ind) => {
+                            const nextExcerpt =
+                              next && findMatch[ind].next.excerpt
+
+                            return (
+                              <>
+                                {postTitle === node.frontmatter.title && (
+                                  <>{nextExcerpt}</>
+                                )}
+                              </>
+                            )
+                          })}
+                        </div>
                       </div>{" "}
                       <div className={styles.nextPageButton}>
                         <span>
@@ -174,6 +182,24 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                                       </span>
                                       <h3>{parent}</h3>
                                       <h4>{children[i + 1].title}</h4>
+                                      <div className={styles.nextExcerpt}>
+                                        {findMatch.map(
+                                          ({ node, next }, ind) => {
+                                            const nextExcerpt =
+                                              next &&
+                                              findMatch[ind].next.excerpt
+
+                                            return (
+                                              <>
+                                                {postTitle ===
+                                                  node.frontmatter.title && (
+                                                  <>{nextExcerpt}</>
+                                                )}
+                                              </>
+                                            )
+                                          }
+                                        )}
+                                      </div>
                                     </div>{" "}
                                     <div className={styles.nextPageButton}>
                                       <span>
@@ -228,6 +254,24 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                                       <h4 className={styles.nextPageSection}>
                                         {nextParent}
                                       </h4>
+                                      <div className={styles.nextExcerpt}>
+                                        {findMatch.map(
+                                          ({ node, next }, ind) => {
+                                            const nextExcerpt =
+                                              next &&
+                                              findMatch[ind].next.excerpt
+
+                                            return (
+                                              <>
+                                                {postTitle ===
+                                                  node.frontmatter.title && (
+                                                  <>{nextExcerpt}</>
+                                                )}
+                                              </>
+                                            )
+                                          }
+                                        )}
+                                      </div>
                                     </div>{" "}
                                     <div className={styles.nextPageButton}>
                                       <span>
@@ -296,6 +340,12 @@ export const pageQuery = graphql`
           frontmatter {
             title
           }
+          fields {
+            slug
+          }
+        }
+        next {
+          excerpt(pruneLength: 200)
           fields {
             slug
           }
