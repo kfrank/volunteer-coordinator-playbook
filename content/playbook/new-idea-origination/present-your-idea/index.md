@@ -14,3 +14,5 @@ idea to the board for consideration.
 - **Share your passion for the idea.**
 - **Answer questions that board members raise.**
 - **After the meeting provide any follow up details requested. Wait to see if you have board approval.**
+
+![Illustration of a person presenting](peeps1.png)

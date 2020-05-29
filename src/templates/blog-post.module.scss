@@ -140,10 +140,8 @@ header {
     margin: 2rem 0;
   }
   table {
-    border: 1px solid $brandColor;
     display: grid;
-    padding: 1rem;
-    grid-gap: 1rem;
+    padding: 0;
     margin-bottom: 1rem;
     margin-top: 2rem;
     thead th {
@@ -155,11 +153,22 @@ header {
       letter-spacing: 0.1em;
     }
     td {
-      padding-right: 0.5rem;
+      padding: 0.75rem;
       vertical-align: baseline;
+      border-bottom: 2px solid $brandColor;
+      border-right: 2px solid $brandColor;
     }
     tr {
       padding-bottom: 1rem;
+      td:first-child {
+        padding-left: 0;
+      }
+      td:last-child {
+        border-right: none;
+      }
+      &:last-child td {
+        border-bottom: none;
+      }
     }
   }
   a {
@@ -206,6 +215,12 @@ header {
 
 article {
   margin-bottom: 3rem;
+  .gatsby-resp-image-background-image {
+    display: none !important;
+  }
+  .gatsby-resp-image-link {
+    border-bottom: none;
+  }
 }
 
 .nextPage {
