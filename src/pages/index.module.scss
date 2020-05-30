@@ -24,6 +24,17 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .nav {
+    display: block;
+    text-align: center;
+    h1 {
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
 .hero {
   max-width: 50rem;
   margin: 3rem auto;
@@ -183,6 +194,10 @@ section.quote {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
+
+    @media screen and (max-width: 800px) {
+      grid-template-columns: 1fr;
+    }
   }
   .featureBlock {
     grid-gap: 3rem;

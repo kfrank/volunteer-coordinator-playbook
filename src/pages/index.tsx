@@ -40,8 +40,8 @@ const Index = ({ data, location }: PageProps<Data>) => {
             <img src={LogoImg} />
             <span className="block">Volunteer Coordinator Playbook</span>
           </h1>
-          <Link
-            to="https://github.com/kfrank/volunteer-coordinator-playbook"
+          <a
+            href="https://github.com/kfrank/volunteer-coordinator-playbook"
             className={styles.button}
           >
             Start your own Playbook{" "}
@@ -69,7 +69,7 @@ const Index = ({ data, location }: PageProps<Data>) => {
                 strokeLinejoin="round"
               />
             </svg>
-          </Link>
+          </a>
         </header>
         <section className={`text-center ${styles.hero}`}>
           <h1 className="leading-tight text-5xl">
@@ -253,7 +253,10 @@ const Index = ({ data, location }: PageProps<Data>) => {
               continue on and adapt to your own volunteer-led organization.
             </p>
             <div className="text-center">
-              <Link to="/playbook" className={` ${styles.button}`}>
+              <a
+                href="https://github.com/kfrank/volunteer-coordinator-playbook"
+                className={` ${styles.button}`}
+              >
                 Read documentation to get started{" "}
                 <svg
                   width="12"
@@ -279,7 +282,7 @@ const Index = ({ data, location }: PageProps<Data>) => {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </Link>
+              </a>
             </div>
           </header>
           <ul className={styles.featureList}>
