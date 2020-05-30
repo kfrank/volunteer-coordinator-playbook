@@ -8,7 +8,7 @@ calloutText: "Nelly just signed up to volunteer for an event at her curling club
 
 Volunteers have signed up for your event (yay!) – now it’s time to give them a shout out and make sure they feel part of the team/ know what’s going on. Keep up a consistent thread of communication with the volunteers to keep them engaged as the days leading up to the event.
 
-**Send out a welcome email within a couple days of sign up:**
+**Send out a welcome email within a couple of days of sign up:**
 
 - Reiterate the role expectation.
 - Remind them of the shift time.
