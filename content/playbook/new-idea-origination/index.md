@@ -11,4 +11,4 @@ To allow for growth and engagement it is critical to allow volunteer leaders to 
 
 ### Getting your idea approved
 
-You have a great idea for an event at the Granite Curling Club and you are willing to coordinate the work to make it happen here are the steps you need to take to get approval. If your idea requires ice time, do note that the ice calendar is set in March for the season and plan to present your idea for the following year.
+You have a great idea for an event or activity and you are willing to coordinate the work to make it happen here are the steps you need to take to get approval. If your idea requires ice time, do note that the ice calendar is set in March for the season and plan to present your idea for the following year.

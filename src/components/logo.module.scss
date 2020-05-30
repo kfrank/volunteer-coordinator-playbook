@@ -1,2 +1,9 @@
 .logo {
+  height: 40px;
+  :global(.gatsby-image-wrapper) {
+    height: 40px;
+    img {
+      filter: invert(1);
+    }
+  }
 }

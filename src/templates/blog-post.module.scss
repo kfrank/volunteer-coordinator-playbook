@@ -24,7 +24,7 @@
   }
 }
 
-header {
+article header {
   position: relative;
   margin-bottom: 2rem;
 
@@ -126,9 +126,11 @@ header {
   li {
     margin-left: 0;
     margin-bottom: 0.5rem;
+  }
+  ul li {
+    padding-left: 3.5rem;
     background: url("./listArrow.svg") no-repeat left top;
     list-style: none;
-    padding-left: 3.5rem;
     p + ul {
       margin-top: -0.5rem;
     }

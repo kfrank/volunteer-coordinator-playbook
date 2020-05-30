@@ -13,18 +13,12 @@ Work with your volunteer leads to create a community around the event planning.
 - **Build a shared sense of mission.**
 - **Target date is 3 months before the event.**
 
-| Example Agenda                  |
-| ------------------------------- |
-| Introductions                   |
-|                                 |
-| What are you hoping to achieve? |
-|                                 |
-| Rough budget for the event      |
-|                                 |
-| Rough timeline for the event    |
-|                                 |
-| Next milestone                  |
-|                                 |
-| Assign action items             |
-|                                 |
-| Determine next meeting          |
+### Example Agenda
+
+- Introductions
+- What are you hoping to achieve?
+- Rough timeline for the event
+- Rough timeline for the event
+- Next Milestone
+- Assign action items
+- Determine next meeting

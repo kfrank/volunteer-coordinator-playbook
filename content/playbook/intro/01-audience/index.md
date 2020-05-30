@@ -4,7 +4,7 @@ section: "Intro"
 sectionPage: "1"
 ---
 
-This Volunteer Coordinator Playbook is written for individuals who currently lead events at Granite Curling Club.
+This Volunteer Coordinator Playbook is written for individuals who are leading events at community nonprofit organizations.
 
 Others who might find this book useful:
 

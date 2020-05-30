@@ -2,71 +2,242 @@
 @import "../styles/theme.scss";
 
 .root {
-  margin: 0 -2.5rem;
-  padding: 2rem 2.5rem;
-  min-height: 100vh;
-  background: $homeBackgroundColor;
-  color: $homeTextColor;
-  h1 {
-    margin-top: 0;
-    font-weight: 900;
-    font-size: 4.5rem;
-    line-height: 1;
-    margin-bottom: 1rem;
-    max-width: 10rem;
+  background: #fffaf5;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
   }
-  h2 {
-    font-weight: 500;
-    font-size: 1.3125rem;
-    line-height: 1.5625rem;
+  section {
+    padding: 2rem;
+  }
+  .nav {
+    padding: 1rem 2rem;
+    .button {
+      font-size: 0.875rem;
+    }
+  }
+  .logo {
+    img {
+      height: 20px;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.hero {
+  max-width: 50rem;
+  margin: 3rem auto;
+  .button {
+    margin-top: 2.5rem;
+  }
+}
+
+.research {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  header {
+    grid-column: 3 / span 3;
+    grid-row: 1 / span 2;
+    display: grid;
+    align-content: center;
+    padding: 0 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .research {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+    header {
+      grid-column: 1 / span 2;
+      grid-row: 1 / span 1;
+      padding: 0 0 1rem;
+      grid-row: 1 / 1;
+      text-align: center;
+    }
+  }
+  .principle:last-child {
+    display: none;
+  }
+}
+
+.principle {
+  color: $brandColor;
+  font-weight: 300;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  perspective: 40rem;
+
+  strong {
+    font-weight: 800;
+  }
+  .principleCard {
+    transform-style: preserve-3d;
+    transition: 0.7s transform;
+    width: 100%;
+    height: 100%;
+    &:hover,
+    &:active {
+      transform: rotateY(-180deg);
+    }
+  }
+  p {
+    padding: 1rem;
+  }
+  img {
+    border-radius: 4px;
+  }
+  .principleFront,
+  .principleBack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    backface-visibility: hidden;
+    background: white;
+    border-radius: 4px;
+    border: 2px solid $brandColor;
+    width: 100%;
+    height: 100%;
+  }
+  .principleBack {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: rotateY(180deg);
+  }
+}
+
+.features header {
+  max-width: 35rem;
+  margin: 0 auto;
+  .button {
+    margin-top: 2.5rem;
     margin-bottom: 2rem;
   }
 }
 
-.heroImg {
-  margin-top: -2rem;
-  margin-left: -2.5rem;
-  margin-right: -2.5rem;
-  margin-bottom: 3rem;
-  max-height: 550px;
-  overflow: hidden;
+.faqs {
+  details {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid $gray-light-5;
+    &:last-child {
+      border-bottom: none;
+    }
+    cursor: pointer;
+    span {
+      margin-top: 0.5rem;
+      max-width: 50rem;
+      display: block;
+    }
+  }
+  summary {
+    font-weight: bold;
+  }
 }
 
-.content {
-  max-width: 45rem;
-  margin: 0 auto;
+section.quote {
+  margin-top: 2rem;
+  padding: 4rem 2rem;
+  background: url(../../content/assets/index/dotsbg.png) center center;
+  background-size: cover;
+  blockquote {
+    max-width: 50rem;
+    span {
+      display: block;
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem 2rem;
+      font-style: italic;
+      font-size: 1.5rem;
+      line-height: 1.2;
+      font-weight: 300;
+    }
+    cite {
+      margin-left: 2rem;
+      margin-top: 0.75rem;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 800;
+      display: block;
+      &:before {
+        content: "— ";
+      }
+    }
+    &:last-child {
+      text-align: left;
+      margin: 2rem 0 0 auto;
+    }
+  }
 }
 
-.logo {
-  width: 40px;
-  margin-bottom: 1.25rem;
+.features {
+  .featureList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  .featureBlock {
+    grid-gap: 3rem;
+    align-items: center;
+    background: white;
+    border-radius: 6px;
+    padding: 0.5rem;
+  }
+  .featureBlockContent {
+    padding: 1.5rem 2rem;
+    border-radius: 4px;
+    text-align: center;
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+  }
+  ul {
+  }
+  img {
+    border: 2px solid black;
+    border-radius: 4px;
+  }
 }
 
 .button {
-  background: $homeButtonBackgroundColor;
-  color: $homeButtonTextColor;
+  background: $buttonHoverBackgroundColor;
+  color: $buttonHoverTextColor;
   display: inline-flex;
   align-items: center;
   padding: 0.75rem 1.25rem 0.75rem 1.5rem;
   border-radius: 50px;
   font-weight: 600;
+  transition: 0.3s ease all;
 
   svg {
     margin-left: 0.675rem;
+    transform: rotate(270deg);
+    transition: 0.3s ease all;
     line,
     path {
-      stroke: $homeButtonTextColor;
+      stroke: $buttonHoverTextColor;
+      transition: 0.3s ease all;
     }
   }
 
   &:hover,
   &:active {
-    background: $homeButtonHoverBackgroundColor;
-    color: $homeButtonHoverTextColor;
+    background: $buttonBackgroundColor;
+    color: $buttonTextColor;
     svg {
+      transform: translateX(5px) rotate(270deg);
       line,
       path {
-        stroke: $homeButtonHoverTextColor;
+        stroke: $buttonTextColor;
       }
     }
   }

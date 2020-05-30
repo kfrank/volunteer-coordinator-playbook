@@ -39,7 +39,7 @@ const Layout = ({ title, children }) => {
               <div className={styles.navContainer}>
                 <Logo className={styles.logo} />
                 <h1 className={styles.title}>
-                  <AniLink cover direction="up" bg="white" to={`/`}>
+                  <AniLink cover direction="up" bg="white" to={`/playbook`}>
                     {title}
                   </AniLink>
                 </h1>
