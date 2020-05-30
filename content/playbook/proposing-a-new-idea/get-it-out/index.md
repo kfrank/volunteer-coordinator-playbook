@@ -1,12 +1,11 @@
 ---
 title: "Get The Idea Out of Your Head"
 section: "New Idea Origination"
-sectionPage: "1"
 calloutTitle: "Case Study"
 calloutText: "Jessica wanted to try out a new bonspiel format to address barriers to team formation that were found during a UW study of adult team formation at GCC. Jessica approached Todd and Ethan two experienced bonspiel leaders and asked if they would be willing to help her with the project. Now with a leadership group assembled and confident that she could pull off the event, Jessica wroted down a short description of what she wanted to do."
 ---
 
-So you say you have an idea? Great, we want to know all about it. Take some time to first write up a short description of your idea and be as specific as possible. Writing down your event idea will help you think through the logistics and prepare you to answer questions from the board on what you want to do.
+Have an idea? Great! We want to know all about it. Take some time to first write up a short description of your idea and be as specific as possible. Writing down your event idea will help you think through the logistics and prepare you to answer questions from the board on what you want to do.
 
 **When writing your description, try to think about:**
 

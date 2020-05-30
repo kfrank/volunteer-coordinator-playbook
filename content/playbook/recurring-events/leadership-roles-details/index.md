@@ -1,8 +1,7 @@
 ---
 title: "Provide Details for Volunteer Leadership Roles"
-section: "Recurring Events"
-sectionPage: "3"
 calloutTitle: "Case Study"
+section: "Recurring Events"
 ---
 
 The unknown is scary, imagine being asked to sign on for an unknown amount of work to be done over an unspecified timeline. Providing concrete details for the leadership roles you are looking to fill makes it easier for people to commit and leads to more confident volunteers.
@@ -21,8 +20,8 @@ The unknown is scary, imagine being asked to sign on for an unknown amount of wo
 
 **Bar Towel Washing Crew Lead**
 
-- **Description:** Help keep our bar and kitchen well stocked with fresh bar towels. Recruit and manage a team of members willing to take home dirty bar towels to wash, dry, fold and return them. Providing our own linen service at the club is one of the ways that we keep the cost of membership down.
-- **Time Commitment:** 1-2 hours per week depending on the number of volunteers. Towels need to be washed weekly, usually it is one load of laundry.
+- **Description:** Help keep our bar and kitchen well stocked with fresh bar towels. Recruit and manage a team of members willing to take home dirty bar towels to wash, dry, fold, and return them. Providing our own linen service at the club is one of the ways that we keep the cost of membership down.
+- **Time Commitment:** 1-2 hours per week depending on the number of volunteers. Towels need to be washed weekly. Usually, it is one load of laundry.
 
 **Bonspiel Kitchen Coordinator**
 

@@ -10,4 +10,4 @@ Your volunteers may encounter a tough situation they can’t easily solve and fe
 - **Have someone more experienced nearby new volunteers can easily see and ask for help.**
 - **Let the new volunteers know this is the person they can ask for help.**
 - **Keep a list of key club contacts in case of ice or warm room emergencies.**
-- **Try to have one volunteer with first aid training per shift. For key roles consider assigning back ups.**
+- **Try to have one volunteer with first aid training per shift. For key roles consider assigning backups.**

@@ -38,29 +38,29 @@
     ]
   },
   {
-    "title": "New Event Origination",
-    "slug": "/new-idea-origination/",
+    "title": "Proposing a New Idea",
+    "slug": "/proposing-a-new-idea/",
 
     "subpages": [
       {
         "title": "Get The Idea Out of Your Head",
-        "slug": "/new-idea-origination/get-it-out/"
+        "slug": "/proposing-a-new-idea/get-it-out/"
       },
       {
         "title": "Share Your Idea",
-        "slug": "/new-idea-origination/share-your-idea/"
+        "slug": "/proposing-a-new-idea/share-your-idea/"
       },
       {
         "title": "Refine And Build Out Your Idea",
-        "slug": "/new-idea-origination/refine-and-build-out/"
+        "slug": "/proposing-a-new-idea/refine-and-build-out/"
       },
       {
         "title": "Get On The Agenda",
-        "slug": "/new-idea-origination/get-on-the-agenda/"
+        "slug": "/proposing-a-new-idea/get-on-the-agenda/"
       },
       {
         "title": "Present Your Idea",
-        "slug": "/new-idea-origination/present-your-idea/"
+        "slug": "/proposing-a-new-idea/present-your-idea/"
       }
     ]
   },
@@ -162,25 +162,25 @@
     ]
   },
   {
-    "title": "Post-Mortem",
-    "slug": "/post-mortem/",
+    "title": "Event Retrospective",
+    "slug": "/retrospective/",
 
     "subpages": [
       {
         "title": "Pick A Time And Place",
-        "slug": "/post-mortem/pick-a-time-and-place/"
+        "slug": "/retrospective/pick-a-time-and-place/"
       },
       {
         "title": "Start With The Good",
-        "slug": "/post-mortem/start-with-the-good/"
+        "slug": "/retrospective/start-with-the-good/"
       },
       {
         "title": "Learn From Mistakes",
-        "slug": "/post-mortem/learn-from-mistakes/"
+        "slug": "/retrospective/learn-from-mistakes/"
       },
       {
         "title": "Share What You Learned",
-        "slug": "/post-mortem/share-what-you-learned/"
+        "slug": "/retrospective/share-what-you-learned/"
       }
     ]
   },

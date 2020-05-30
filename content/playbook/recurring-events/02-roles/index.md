@@ -1,9 +1,8 @@
 ---
 title: "Filling Volunteer Leadership Roles"
-section: "Recurring Events"
-sectionPage: "2"
 calloutTitle: "Case Study"
-calloutText: "Jill volunteers as a league manager at the Granite Curling Club, she has been managing her league for several years and recently took on Roger, a newer club member, as her back up league manager. When it comes time to form new league teams for the 2nd half of the season Jill invites her backup Roger over for dinner to be a part of the process when she is forming teams. Jill is able to lean on Rogers’ knowledge of newer club members as she makes the teams and Roger learns what it takes to build balanced teams for a managers choice league. Jill and Roger schedule themselves to be on different draws so that they can make sure there is always a leader around to make announcements and
+section: "Recurring Events"
+calloutText: "Jill volunteers as a league manager at the Granite Curling Club, she has been managing her league for several years and recently took on Roger, a new club member, as her back up league manager. When it comes time to form new league teams for the 2nd half of the season Jill invites her backup Roger over for dinner to be a part of the process when she is forming teams. Jill is able to lean on Rogers’ knowledge of new club members as she makes the teams and Roger learns what it takes to build balanced teams for a managers choice league. Jill and Roger schedule themselves to be on different draws so that they can make sure there is always a leader around to make announcements and
 answer questions."
 ---
 

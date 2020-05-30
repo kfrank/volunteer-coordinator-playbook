@@ -1,7 +1,6 @@
 ---
 title: "Get On The Agenda"
 section: "New Idea Origination"
-sectionPage: "4"
 ---
 
 Find out when the board or leadership regularly meets. Usually, the times and dates for the board meetings are posted in advance on a calendar. Work with your board contact to determine when you should come and present your idea. It may also be that the board member can present the idea for you if you prefer not to speak in front of a group.

@@ -1,7 +1,5 @@
 ---
-title: "Post-Mortem"
-section: "Wrap Up"
-sectionPage: "7"
+title: "Event Retrospective"
 coverImage: "peeps.png"
 ---
 

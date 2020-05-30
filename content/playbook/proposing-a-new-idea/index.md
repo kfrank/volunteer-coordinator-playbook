@@ -1,7 +1,6 @@
 ---
-title: "New Event Origination"
+title: "Proposing a New Idea"
 section: "New Idea Origination"
-sectionPage: "3"
 coverImage: "peeps.png"
 ---
 

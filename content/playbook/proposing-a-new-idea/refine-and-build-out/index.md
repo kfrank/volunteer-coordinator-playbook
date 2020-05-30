@@ -1,7 +1,6 @@
 ---
 title: "Refine And Build Out Your Idea"
 section: "New Idea Origination"
-sectionPage: "3"
 ---
 
 The idea is out of your head and people are reacting well to it. Now it is time to take it to the next level and really start to think about everything that it will take to make your idea a reality.
