@@ -230,7 +230,9 @@ const Index = ({ data, location }: PageProps<Data>) => {
         <section className={styles.quote}>
           <blockquote>
             <span>
-              I can see this Playbook being used to elevate who we are.
+              I can see this playbook being used to elevate who we are. We want
+              to be the best curling club in the country and our volunteers are
+              such an important part of that.
             </span>
             <cite>Phil Shyrock, Granite Curling Club President</cite>
           </blockquote>
