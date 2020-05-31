@@ -20,24 +20,64 @@ The first is called frontmatter, and will look like this:
 ---
 title: "Don’t Assume Everyone Knows You"
 section: "Day of Event"
-sectionPage: "01"
-page: "24"
-published: true
-type: child
 ---
 ```
 
-Frontmatter is where you will edit the title that appears on the page, the section the page belongs in, the order (both in total pages and pages within the section), and whether the page is published or unpublished (must be either true or false). (Disregard and do not edit the type. This is for determining which pages are a section title page and which below within each section.)
+Frontmatter is where you will edit the title that appears on the page and the section the page belongs in.
+
+Additionally, you may include case study callouts on each page. These are entered in the frontmatter as well by adding `calloutTitle: ""` and `calloutText: ""`:
+
+```
+---
+title: "Don’t Assume Everyone Knows You"
+section: "Day of Event"
+calloutTitle: "Case Study"
+calloutText: "An example of volunteering..."
+---
+```
 
 The second part is the content of the page. This goes below the frontmatter and can be edited like normal text. To use headings, bolding, italics, lists, and images, refer to the [Markdown Guide's Cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 
-### Adding New Pages
-
-To add a new page, find the `***Page Template***` folder within `content/playbook`. Duplicate this folder into the section you wish to add the page to. Once duplicated, edit the name of the folder (we recommend adding the order number to the beginning). Make sure your folder name does **not** include spaces. From there, you can open the `index.md` file within your new folder and begin editing the page.
-
 ### Adding New Sections
 
-To add a new section, find the `***Page Section***` folder within `content/playbook`. Duplicate this folder. It should automatically be placed within the `playbook` folder, but double check to make sure. Once duplicated, edit the name of the folder to be your new section (we recommend adding the order number to the beginning). Make sure your folder name does **not** include spaces. From there, you can open the `index.md` file within your new folder. Be sure to update the `sectionPage:` part of the frontmatter to whichever order you want this section to appear (we recommend starting with one more than your total sections. If you're starting from the base template, this would be 8). Then you can begin editing the rest of the page.
+To add a new section, you will need to do two things.
+
+First, find the file named `pages.json` in the `src/data` folder. This file contains a list of every page in the Playbook placed in order as they appear. To add a new section, place this code between sections in the order you wish the new section to appear:
+
+```
+{
+"title": "Section Name",
+"slug": "/section-name/",
+"subpages": [
+    {
+    "title": "Page Name",
+    "slug": "/section-name/page-name/"
+    },
+},
+```
+
+Be aware, if this is the last page, you do not need the comma at the end of the last closing bracket for both the section and the subpages. Make sure the slug name does **not** include spaces.
+
+Once the new section is added to this file, find the `section-template` folder within `content/playbook`. Duplicate this folder. It should automatically be placed within the `playbook` folder, but double check to make sure. Once duplicated, edit the name of the folder to be exactly the same as the name you added as the slug in the `data.json` file.
+
+From there, you can open the `index.md` file within your new folder. Then you can begin editing the rest of the page.
+
+### Adding New Pages
+
+To add a new page, you will need to do two things.
+
+First, find the file named `pages.json` in the `src/data` folder. This file contains a list of every page in the Playbook placed in order as they appear. Find the section you want to add a page to. between that section's `subpages: [` brackets, each page will be listed in order. Add your new page by placing this code in the order you want the page to appear:
+
+```
+ {
+    "title": "Page Name",
+    "slug": "/section-name/page-name/"
+    },
+```
+
+If this a new section you added, you should already have a subpage you can edit the name and slug for. Be aware, if this is the last page, you do not need the comma at the end of the last closing bracket.
+
+Once the new page is added to this file, find the `page-template` folder within `content/playbook/section-template`. Duplicate this folder into the section you wish to add the page to. Once duplicated, edit the name of the folder to be exactly the same as the slug name you added in the `data.json` file. Make sure your folder name does **not** include spaces. From there, you can open the `index.md` file within your new folder and begin editing the page.
 
 ## Editing Colors & Fonts
 
@@ -61,7 +101,7 @@ The Playbook comes with default images created using [Open Peeps](https://www.op
 
 ### Logo
 
-To add your own logo, replace the file `logo.png` located with the `content/assets` folder with an image of the same exact name (must be a `.png` file). Your image should be at least 80 pixels tall to preserve image quality.
+To add your own logo, replace the file `logo.png` located with the `content/assets` folder with an image of the same exact name (must be a `.png` file). Your image should be at least 100 pixels tall to preserve image quality.
 
 ### Cover Image
 
@@ -83,6 +123,9 @@ Deploying changes is as simple as running `yarn run deploy` from a terminal wind
 
 ## Technical Details
 
-This Playbook was built using [Gatsby](https://www.gatsbyjs.org/) with css modules.
+This Playbook was built using [Gatsby](https://www.gatsbyjs.org/) with CSS modules.
 
 ## Credits
+
+Illustrations: Open Peeps by Pablo Stanley [https://www.openpeeps.com/](https://www.openpeeps.com/)
+Gatsby: [https://www.gatsbyjs.org/](https://www.gatsbyjs.org/)
