@@ -129,5 +129,5 @@ This Playbook was built using [Gatsby](https://www.gatsbyjs.org/) with CSS modul
 
 ## Credits
 
-Illustrations: Open Peeps by Pablo Stanley [https://www.openpeeps.com/](https://www.openpeeps.com/)
-Gatsby: [https://www.gatsbyjs.org/](https://www.gatsbyjs.org/)
+- Illustrations: Open Peeps by Pablo Stanley [https://www.openpeeps.com/](https://www.openpeeps.com/)
+- Gatsby: [https://www.gatsbyjs.org/](https://www.gatsbyjs.org/)
