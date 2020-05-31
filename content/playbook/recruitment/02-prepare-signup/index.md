@@ -17,6 +17,6 @@ A good sign-up sheet doesn’t just tell you who is interested in volunteering. 
 
 **Use an existing tool**
 
-- GCC has several Spreadsheet templates
-- Find the template that best fits your event
-- Post the event on the volunteer page of the GCC website
+- See if your organization has existing Spreadsheet templates.
+- Find the template that best fits your event.
+- If your organization has a volunteer page, post the event there.

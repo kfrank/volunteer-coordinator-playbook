@@ -7,7 +7,7 @@ calloutText: "Leonard wants to get more involved in volunteering at his local cu
 ---
 
 You have identified the help you need now it is time to start getting the word
-out. We recommend you start advertising the volunteer opportunity at least 3 months before the event. Some people will wait for the last minute to sign up but others plan out their schedules in advance and appreciate being able to prioritize helping at GCC. Think about the diversity at the club and plan several ways to let people know about your opportunity.
+out. We recommend you start advertising the volunteer opportunity at least three months before the event. Some people will wait for the last minute to sign up but others plan out their schedules in advance and appreciate being able to prioritize helping out. Think about the diversity at the club and plan several ways to let people know about your opportunity.
 
 **Regularly remind club members about open volunteer opportunities:**
 
@@ -19,9 +19,9 @@ out. We recommend you start advertising the volunteer opportunity at least 3 mon
 |                                           |                                                                                                         |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Digital**                               | **Physical**                                                                                            |
-| GCC website Volunteer Page event posting. | Add your event to the league announcements list.announcements.                                          |
+| Org website Volunteer Page event posting. | Add your event to the league announcements list.announcements.                                          |
 | Club wide monthly email posting.          | Post flyers in the bathrooms.                                                                           |
-| GCC Slack Channel Posting.                | Hang posters in the warm room.                                                                          |
+| Org Slack Channel Posting.                | Hang posters in the warm room.                                                                          |
 | List event on the club calendar.          | Bring a paper sign up form with you to league nights.                                                   |
-| GCC Facebook WarmRoom group posting.      | Ask a friend to join – seek people out and ask in person.                                               |
+| Org Facebook group posting.               | Ask a friend to join – seek people out and ask in person.                                               |
 | **BONUS**                                 | Send out a survey asking people about their skill sets. Then, reach out to those that match your needs. |

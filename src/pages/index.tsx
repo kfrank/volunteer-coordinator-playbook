@@ -345,44 +345,90 @@ const Index = ({ data, location }: PageProps<Data>) => {
           <details>
             <summary>Who created this?</summary>
             <span>
-              Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam
-              eget risus varius blandit sit amet non magna. Cras mattis
-              consectetur purus sit amet fermentum. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus. Fusce
-              dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-              ut fermentum massa justo sit amet risus. Integer posuere erat a
-              ante venenatis dapibus posuere velit aliquet. Donec sed odio dui.
+              This Playbook was created by a team of graduate studies in the
+              Human Centered Design and Engineering department at the University
+              of Washington for our final capstone project. We are Klare Frank,
+              Alison Buchanan, Jami Odell, and Jessica Schultz.
             </span>
           </details>
           <details>
             <summary>Why was this created?</summary>
+            <span>
+              We decided to create this Playbook after conducting extensive
+              research on volunteering practices at the Granite Curling Club in
+              Seattle, WA. This solution emerged as the best idea for gathering
+              and distributing all our findings into a digestable format aimed
+              to influence volunteer leaders and improve volunteering practices
+              at volunteer-led organizations.
+            </span>
           </details>
           <details>
             <summary>Who is the Volunteer Coordinator Playbook for?</summary>
+            <span>
+              The Volunteer Coordinator Playbook is intended to be used by
+              volunteer-led organizations, or organizations that rely heavily on
+              volunteers to operate. Leadership within those organizations can
+              use this Playbook to keep a record of best practices and
+              documentation on volunteer practices. The Playbook is primarily
+              written for volunteer coordinators, or leaders who manage many
+              volunteers or events.
+            </span>
           </details>
           <details>
             <summary>What can I expect from the customizable Playbook?</summary>
+            <span>
+              Organization leaders can expect a basic Playbook fit for any
+              organization that includes guidelines and best practices for
+              running volunteering, organized through a timeline for running a
+              volunteering event. Content managers can expect to update
+              callouts, or case studies, with examples from their own
+              organizations, update content and add sections and pages, change
+              and add images, and replace the logo and brand colors to suit
+              their organization's brand image.
+            </span>
           </details>
           <details>
             <summary>What is the status of this project?</summary>
+            <span>
+              This Playbook, in it's current form, exists as a working
+              prototype.
+            </span>
           </details>
           <details>
             <summary>What is a working prototype?</summary>
+            <span>
+              We consider a working prototype to mean that the Playbook is
+              usable for any organization right now, but has not gone through
+              usability testing for the web app. The content itself has It may
+              require extra assistance or technical knowledge to use. This means
+              this Playbook is the first draft for building a web app, but
+              requires research for what organizations need to build and
+              maintain their own Playbooks.
+            </span>
           </details>
           <details>
             <summary>Can I use this now?</summary>
-          </details>
-          <details>
-            <summary>How do I use this?</summary>
-          </details>
-          <details>
-            <summary>How much flexibility can I expect?</summary>
+            <span>
+              Yes! You can edit the content and add your own right now by
+              forking the GitHub repositiory and following the readme
+              instructions.
+            </span>
           </details>
           <details>
             <summary>Who made the cool illustrations?</summary>
+            <span>
+              All of the base illustrations were created using the Open Peeps
+              Illustration Library by Pablo Stanley.
+              [https://www.openpeeps.com/](https://www.openpeeps.com/)
+            </span>
           </details>
           <details>
             <summary>Where can I find the code for this project?</summary>
+            <span>
+              The code for this project can be accessed in a repository on
+              GitHub:
+              [https://github.com/kfrank/volunteer-coordinator-playbook](https://github.com/kfrank/volunteer-coordinator-playbook)
+            </span>
           </details>
         </section>
       </div>
