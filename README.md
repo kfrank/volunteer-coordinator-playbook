@@ -10,6 +10,8 @@ Kickstart your documentation processes by using this template as a guide. This t
 
 All pages are contained within the `content/playbook` folder. Each section of the Playbook has it's own folder containing a section title page and folders for each of that section's pages. The text content of each page is written in [Markdown](https://www.markdownguide.org/), and saved as `index.md`.
 
+Additionally, you'll want to delete the files `index.tsx` and `index.module.scss` in the folder `src/pages` and rename the files `playbook.tsx` and `playbook.module.scss` to `index` instead to remove our product page from your Playbook.
+
 ### Editing Pages
 
 Each page (`index.md` within each page's folder) contains two parts.
