@@ -230,10 +230,9 @@ const Index = ({ data, location }: PageProps<Data>) => {
         <section className={styles.quote}>
           <blockquote>
             <span>
-              I can't tell you how much I love this work! I am going to use many
-              of these suggestions.
+              I can see this Playbook being used to elevate who we are.
             </span>
-            <cite>Scott, Granite Curling Club Bar Manager</cite>
+            <cite>Phil Shyrock, Granite Curling Club President</cite>
           </blockquote>
           <blockquote>
             <span>
