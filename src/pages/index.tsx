@@ -411,7 +411,10 @@ const Index = ({ data, location }: PageProps<Data>) => {
             <span>
               Yes! You can edit the content and add your own right now by
               forking the GitHub repository and following the readme
-              instructions.
+              instructions:{" "}
+              <a href="https://github.com/kfrank/volunteer-coordinator-playbook#about-the-volunteer-coordinator-playbook">
+                https://github.com/kfrank/volunteer-coordinator-playbook#about-the-volunteer-coordinator-playbook
+              </a>
             </span>
           </details>
           <details>
@@ -419,7 +422,9 @@ const Index = ({ data, location }: PageProps<Data>) => {
             <span>
               All of the base illustrations were created using the Open Peeps
               Illustration Library by Pablo Stanley.
-              [https://www.openpeeps.com/](https://www.openpeeps.com/)
+              <a href="https://www.openpeeps.com/">
+                https://www.openpeeps.com/
+              </a>
             </span>
           </details>
           <details>
@@ -427,7 +432,9 @@ const Index = ({ data, location }: PageProps<Data>) => {
             <span>
               The code for this project can be accessed in a repository on
               GitHub:
-              [https://github.com/kfrank/volunteer-coordinator-playbook](https://github.com/kfrank/volunteer-coordinator-playbook)
+              <a href="https://github.com/kfrank/volunteer-coordinator-playbook">
+                https://github.com/kfrank/volunteer-coordinator-playbook
+              </a>
             </span>
           </details>
         </section>
