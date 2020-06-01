@@ -1,6 +1,6 @@
 # About the Volunteer Coordinator Playbook
 
-This Playbook is a **working prototype**.
+This Playbook is a **working prototype**. It was created as the HCDE Master's capstone project by Klare Frank, Alison Buchanan, Jami Odell, and Jessica Schultz.
 
 # Get Started with this Playbook Template
 
@@ -8,7 +8,7 @@ Kickstart your documentation processes by using this template as a guide. This t
 
 ## Editing & Adding Pages
 
-All pages are contained within the `content/playbook` folder. Each section of the Playbook has it's own folder containing a section title page and folders for each of that section's pages. The text content of each page is written in [Markdown](https://www.markdownguide.org/), and saved as `index.md`.
+All pages are contained within the `content/playbook` folder. Each section of the Playbook has its own folder containing a section title page and folders for each of that section's pages. The text content of each page is written in [Markdown](https://www.markdownguide.org/), and saved as `index.md`.
 
 Additionally, you'll want to delete the files `index.tsx` and `index.module.scss` in the folder `src/pages` and rename the files `playbook.tsx` and `playbook.module.scss` to `index` instead to remove our product page from your Playbook.
 
@@ -60,7 +60,7 @@ First, find the file named `pages.json` in the `src/data` folder. This file cont
 
 Be aware, if this is the last page, you do not need the comma at the end of the last closing bracket for both the section and the subpages. Make sure the slug name does **not** include spaces.
 
-Once the new section is added to this file, find the `section-template` folder within `content/playbook`. Duplicate this folder. It should automatically be placed within the `playbook` folder, but double check to make sure. Once duplicated, edit the name of the folder to be exactly the same as the name you added as the slug in the `data.json` file.
+Once the new section is added to this file, find the `section-template` folder within `content/playbook`. Duplicate this folder. It should automatically be placed within the `playbook` folder, but double-check to make sure. Once duplicated, edit the name of the folder to be exactly the same as the name you added as the slug in the `data.json` file.
 
 From there, you can open the `index.md` file within your new folder. Then you can begin editing the rest of the page.
 
@@ -93,7 +93,7 @@ If you wish to fine-tune your color selections, you can also edit any of the rem
 
 ### Fonts
 
-Fonts are also specificed within the `src/styles/_theme.scss` file, but require extra work. The easiest way to replace fonts is to use Google Fonts. Find the name of the font you'd like to add, and replace `Inter` in the `gatsby-config.js` file (line 73). You can also specify the font weights on the same line. Then, in the `_theme.scss` file, replace `Inter` with the name of your font.
+Fonts are also specified within the `src/styles/_theme.scss` file, but require extra work. The easiest way to replace fonts is to use Google Fonts. Find the name of the font you'd like to add and replace `Inter` in the `gatsby-config.js` file (line 73). You can also specify the font weights on the same line. Then, in the `_theme.scss` file, replace `Inter` with the name of your font.
 
 For more information on using Google Fonts with Gatsby, read the package page for [gatsby-plugin-google-fonts](https://www.gatsbyjs.org/packages/gatsby-plugin-google-fonts/).
 
@@ -121,7 +121,7 @@ These can be added anywhere within the text using markdown. Refer to the [Markdo
 
 _Note: Must have [Yarn](https://yarnpkg.com/getting-started) & [Gatsby](https://www.gatsbyjs.org/docs/) installed._
 
-Deploying changes is as simple as running `yarn run deploy` from a terminal window. This automatically publishes changes to your forked github repo under a `gh-pages` branch. For more information on how GitHub Pages works, check out [their documentation](https://pages.github.com/).
+Deploying changes is as simple as running `yarn run deploy` from a terminal window. This automatically publishes changes to your forked GitHub repo under a `gh-pages` branch. For more information on how GitHub Pages works, check out [their documentation](https://pages.github.com/).
 
 ## Technical Details
 
