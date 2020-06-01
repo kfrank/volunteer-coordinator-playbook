@@ -152,6 +152,14 @@
   summary {
     font-weight: bold;
   }
+  a {
+    color: $blue;
+    text-decoration: underline;
+    &:hover,
+    &:active {
+      text-decoration: none;
+    }
+  }
 }
 
 section.quote {
