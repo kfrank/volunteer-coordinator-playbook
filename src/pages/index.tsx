@@ -421,7 +421,7 @@ const Index = ({ data, location }: PageProps<Data>) => {
             <summary>Who made the cool illustrations?</summary>
             <span>
               All of the base illustrations were created using the Open Peeps
-              Illustration Library by Pablo Stanley.
+              Illustration Library by Pablo Stanley.{" "}
               <a href="https://www.openpeeps.com/">
                 https://www.openpeeps.com/
               </a>
@@ -431,7 +431,7 @@ const Index = ({ data, location }: PageProps<Data>) => {
             <summary>Where can I find the code for this project?</summary>
             <span>
               The code for this project can be accessed in a repository on
-              GitHub:
+              GitHub:{" "}
               <a href="https://github.com/kfrank/volunteer-coordinator-playbook">
                 https://github.com/kfrank/volunteer-coordinator-playbook
               </a>
