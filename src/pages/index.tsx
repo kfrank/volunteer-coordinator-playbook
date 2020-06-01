@@ -358,7 +358,7 @@ const Index = ({ data, location }: PageProps<Data>) => {
               We decided to create this Playbook after conducting extensive
               research on volunteering practices at the Granite Curling Club in
               Seattle, WA. This solution emerged as the best idea for gathering
-              and distributing all our findings into a digestable format aimed
+              and distributing all our findings into a digestible format aimed
               to influence volunteer leaders and improve volunteering practices
               at volunteer-led organizations.
             </span>
@@ -371,7 +371,7 @@ const Index = ({ data, location }: PageProps<Data>) => {
               volunteers to operate. Leadership within those organizations can
               use this Playbook to keep a record of best practices and
               documentation on volunteer practices. The Playbook is primarily
-              written for volunteer coordinators, or leaders who manage many
+              written for volunteer coordinators or leaders who manage many
               volunteers or events.
             </span>
           </details>
@@ -391,8 +391,7 @@ const Index = ({ data, location }: PageProps<Data>) => {
           <details>
             <summary>What is the status of this project?</summary>
             <span>
-              This Playbook, in it's current form, exists as a working
-              prototype.
+              This Playbook, in its current form, exists as a working prototype.
             </span>
           </details>
           <details>
@@ -402,7 +401,7 @@ const Index = ({ data, location }: PageProps<Data>) => {
               usable for any organization right now, but has not gone through
               usability testing for the web app. The content itself has It may
               require extra assistance or technical knowledge to use. This means
-              this Playbook is the first draft for building a web app, but
+              this Playbook is the first draft for building a web app but
               requires research for what organizations need to build and
               maintain their own Playbooks.
             </span>
@@ -411,7 +410,7 @@ const Index = ({ data, location }: PageProps<Data>) => {
             <summary>Can I use this now?</summary>
             <span>
               Yes! You can edit the content and add your own right now by
-              forking the GitHub repositiory and following the readme
+              forking the GitHub repository and following the readme
               instructions.
             </span>
           </details>
