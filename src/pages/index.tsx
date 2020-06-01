@@ -437,6 +437,16 @@ const Index = ({ data, location }: PageProps<Data>) => {
               </a>
             </span>
           </details>
+          <details>
+            <summary>Can I just download a PDF?</summary>
+            <span>
+              Absolutely! If you're not interested in keeping this content
+              online, you can download a PDF of all the Playbook content here:{" "}
+              <a href="https://klare.io/volunteer-coordinator-playbook/static/volunteer-playbook-f55962cbddbef8c582525dc8a0e765b2.pdf">
+                https://klare.io/volunteer-coordinator-playbook/static/volunteer-playbook-f55962cbddbef8c582525dc8a0e765b2.pdf
+              </a>
+            </span>
+          </details>
         </section>
       </div>
     </div>
